@@ -1,0 +1,463 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:1:1-237:12
+	package
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:2:5-28
+	android:versionName
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:4:5-34
+		INJECTED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml
+		INJECTED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:3:5-30
+		INJECTED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml
+		INJECTED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:6:5-8:41
+MERGED from [XSUPERSMS:MosLibrary-XUESI:unspecified] E:\ASPlace\XSUPERSMS\MosLibrary-XUESI\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:8:9-38
+	android:minSdkVersion
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:7:9-34
+supports-screens
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:11:5-16:39
+	android:largeScreens
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:16:9-36
+	android:normalScreens
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:14:9-37
+	android:resizeable
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:15:9-34
+	android:anyDensity
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:12:9-34
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:20:22-73
+uses-permission#android.permission.INTERNET
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:25:22-81
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:27:5-82
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:27:22-79
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:31:22-76
+uses-permission#android.permission.CAMERA
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:32:5-65
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:32:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:34:5-60
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:34:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:35:5-70
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:35:19-67
+uses-permission#android.permission.FLASHLIGHT
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:37:5-69
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:37:22-66
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:38:5-75
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:38:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:39:5-66
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:39:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:40:5-68
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:40:22-65
+uses-permission#com.honeywell.decode.permission.DECODE
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:41:5-78
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:41:22-75
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:42:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:43:5-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:43:22-71
+application
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:45:5-235:19
+MERGED from [XSUPERSMS:MosLibrary-XUESI:unspecified] E:\ASPlace\XSUPERSMS\MosLibrary-XUESI\build\intermediates\bundles\default\AndroidManifest.xml:11:5-16:19
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:49:9-46
+	android:label
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:48:9-41
+	android:icon
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:47:9-45
+	android:allowBackup
+		ADDED from [XSUPERSMS:MosLibrary-XUESI:unspecified] E:\ASPlace\XSUPERSMS\MosLibrary-XUESI\build\intermediates\bundles\default\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:50:9-40
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:46:9-52
+activity#com.xuesi.sms.app.activity.LoginActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:51:9-61:20
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:55:13-50
+	android:label
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:54:13-45
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:53:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:52:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:56:13-60:29
+action#android.intent.action.MAIN
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:57:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:59:27-74
+activity#com.xuesi.sms.app.activity.WorkInfoActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:63:9-68:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:68:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:67:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:66:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:65:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:64:13-71
+activity#com.xuesi.sms.app.activity.WorkInfoPlanActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:70:9-75:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:75:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:74:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:73:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:72:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:71:13-75
+activity#com.xuesi.sms.app.activity.WorkInfoYieldActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:76:9-81:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:81:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:80:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:78:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:77:13-76
+activity#com.xuesi.sms.app.activity.WorkInfoReserveActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:82:9-87:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:87:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:86:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:85:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:84:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:83:13-78
+activity#com.xuesi.sms.app.activity.WorkInfoUseRatioActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:88:9-93:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:93:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:92:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:91:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:90:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:89:13-79
+activity#com.xuesi.sms.app.activity.ArrayNaviActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:95:9-100:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:100:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:99:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:98:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:97:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:96:13-72
+activity#com.xuesi.sms.app.activity.BarcodeBindActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:102:9-107:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:107:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:106:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:105:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:104:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:103:13-74
+activity#com.xuesi.sms.app.activity.ContactUsActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:108:9-113:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:113:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:112:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:111:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:110:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:109:13-72
+activity#com.xuesi.sms.app.activity.SettingActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:114:9-119:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:119:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:118:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:117:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:116:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:115:13-70
+activity#com.xuesi.sms.app.activity.HelpActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:120:9-125:52
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:125:13-49
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:124:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:123:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:122:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:121:13-67
+activity#com.xuesi.sms.app.activity.InputActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:127:9-132:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:132:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:131:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:130:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:129:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:128:13-68
+activity#com.xuesi.sms.app.activity.ShiftActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:134:9-139:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:139:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:138:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:137:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:136:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:135:13-68
+activity#com.xuesi.sms.app.activity.OutputActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:141:9-146:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:146:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:145:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:144:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:143:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:142:13-69
+activity#com.xuesi.sms.app.activity.StoreActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:148:9-153:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:153:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:152:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:151:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:150:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:149:13-68
+activity#com.xuesi.sms.app.activity.SheetDetailActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:155:9-160:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:160:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:159:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:158:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:157:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:156:13-74
+activity#com.xuesi.sms.app.activity.CheckActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:161:9-166:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:166:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:165:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:164:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:163:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:162:13-68
+activity#com.xuesi.sms.app.activity.CheckDetailActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:168:9-173:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:173:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:172:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:171:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:170:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:169:13-74
+activity#com.xuesi.sms.app.activity.CraneActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:175:9-180:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:180:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:179:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:178:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:177:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:176:13-68
+activity#com.xuesi.sms.app.activity.QueryActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:181:9-186:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:186:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:185:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:184:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:183:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:182:13-68
+activity#com.xuesi.sms.app.activity.ScanDialog
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:188:9-194:45
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:193:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:192:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:191:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:190:13-74
+	android:theme
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:194:13-42
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:189:13-65
+activity#com.xuesi.sms.app.activity.StoreTypeActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:195:9-200:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:200:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:199:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:198:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:197:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:196:13-72
+activity#com.xuesi.sms.app.activity.LauModActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:201:9-206:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:206:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:205:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:204:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:203:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:202:13-69
+activity#com.xuesi.sms.app.activity.AdWebActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:207:9-211:47
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:211:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:210:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:209:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:208:13-68
+activity#com.xuesi.sms.app.activity.CaptureActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:212:9-216:45
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:216:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:215:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:214:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:213:13-70
+activity#com.xuesi.sms.app.activity.QueryBillActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:217:9-222:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:222:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:221:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:220:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:219:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:218:13-72
+activity#com.xuesi.sms.app.activity.ConfigureFieldsActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:223:9-228:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:228:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:227:13-44
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:226:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:225:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:224:13-78
+activity#com.xuesi.sms.app.activity.ConnectBluetooth
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:229:9-234:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:234:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:233:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:232:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:231:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:230:13-71

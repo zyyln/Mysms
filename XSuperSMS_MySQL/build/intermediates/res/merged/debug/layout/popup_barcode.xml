@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_info_bubble"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/item_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/item_delete"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen_8_dip" />
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/item_choice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="全选"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen_8_dip" />
+
+    <TextView
+        android:layout_width="@dimen/dimen_1_dip"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/item_notChoice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="全不选"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen_8_dip" />
+
+</LinearLayout>

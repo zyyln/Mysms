@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40_dip" />
+
+    <RadioGroup
+        android:id="@+id/RgSearchDev"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RbPairedDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="已配对设备" />
+
+        <RadioButton
+            android:id="@+id/RbNewDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="未配对设备" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TvDevList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RgSearchDev"
+        android:height="20dp"
+        android:background="#999999"
+        android:text="蓝牙设备列表"
+        android:textColor="#990000"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/LvDevList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/TvDevList"
+        android:layout_weight="1"></ListView>
+
+    <Button
+        android:id="@+id/BtDisconnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:text="断开连接" />
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/work_panel_select_bg"
+    android:orientation="vertical" >
+
+    <!-- 垛位信息 -->
+
+    <TextView
+        style="@style/font2_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/deep_gray"
+        android:gravity="center"
+        android:text="@string/stack_info" />
+
+    <ListView
+        android:id="@+id/lv_stackmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/ListViewdividerHeight"
+        android:fadeScrollbars="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarFadeDuration="0"
+        android:scrollbars="none" />
+
+</LinearLayout>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40_dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_10_dip"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_20_dip"
+            android:paddingRight="@dimen/dimen_20_dip">
+
+            <!-- 作业看板 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_worklook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_work_panel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/work_panel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/tv_work_panel"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_worklook" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 条码绑定 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_barocde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_barcodeBinding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/barcodeBinding"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_barcodeBinding"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_barcode" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 入库 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_sheet_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/sheet_input"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:id="@+id/arrayNavi_img_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_sheet_input"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_input" />
+
+                    <TextView
+                        android:id="@+id/arrayNavi_tv_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_sheet_input"
+                        android:background="@drawable/login_password"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 出库 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_output"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_sheet_output"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/sheet_output"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_sheet_output"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_output" />
+
+                    <TextView
+                        android:id="@+id/arrayNavi_tv_output"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_sheet_output"
+                        android:background="@drawable/login_password"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_20_dip"
+            android:paddingRight="@dimen/dimen_20_dip">
+
+            <!-- 倒垛 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_shift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_sheet_shifting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/sheet_shift"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_sheet_shifting"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_shifting" />
+
+                    <TextView
+                        android:id="@+id/arrayNavi_tv_shifting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_sheet_shifting"
+                        android:background="@drawable/login_password"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 库位总览 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_pandect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_stock_pandect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/stock_pandect"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_stock_pandect"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_pandect" />
+
+                    <TextView
+                        android:id="@+id/arrayNavi_tv_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_stock_pandect"
+                        android:background="@drawable/login_password"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 行车面板 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_crane"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_crane_panel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/crane_panel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_crane_panel"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_hc_panel1" />
+
+                    <TextView
+                        android:id="@+id/arrayNavi_tv_panelHc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_crane_panel"
+                        android:background="@drawable/login_password"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 库存盘点 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_storage_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/storage_check"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_storage_check"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_check" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_20_dip"
+            android:paddingRight="@dimen/dimen_20_dip">
+
+            <!-- 信息查询 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_infoQuery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_infoquery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/infoquery"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_infoquery"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_infoquery" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 采购单查询 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_billSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_billSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="5"
+                        android:gravity="center"
+                        android:text="@string/bill_search"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_billSearch"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_billsearch" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 系统设定 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/arrayNavi_linear_systemSetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_systemSetting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:text="@string/systemSetting"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_12_dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_systemSetting"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/navi_setting" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 待添加图标1 -->
+
+            <LinearLayout
+                android:id="@+id/icon2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>

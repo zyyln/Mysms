@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/crane_work_panel_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sheet_detail_list_item_bg" >
+
+    <TextView
+        android:id="@+id/crane_work_panel_list_workid_txt"
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ems="7"
+        android:gravity="center"
+        android:text="@string/crane_work_code" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <ListView
+        android:id="@+id/crane_work_panel_list_sub_listview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/white"
+        android:dividerHeight="2dp"
+        android:fadingEdge="none"
+        android:listSelector="@color/transparent" >
+    </ListView>
+
+</LinearLayout>

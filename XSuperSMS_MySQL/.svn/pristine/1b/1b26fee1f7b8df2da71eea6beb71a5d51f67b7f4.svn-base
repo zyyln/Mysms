@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/timebtn_relative_day"
+        android:layout_width="@dimen/width_timebtn"
+        android:layout_height="@dimen/width_timebtn"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/timebtn_btn_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/workinfo_day_select" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/day"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/timebtn_relative_week"
+        android:layout_width="@dimen/width_timebtn"
+        android:layout_height="@dimen/width_timebtn"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/timebtn_relative_day"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/timebtn_btn_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/workinfo_week_select" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/week"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/timebtn_relative_month"
+        android:layout_width="@dimen/width_timebtn"
+        android:layout_height="@dimen/width_timebtn"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/timebtn_relative_week"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/timebtn_btn_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/workinfo_month_select" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/month"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/timebtn_relative_year"
+        android:layout_width="@dimen/width_timebtn"
+        android:layout_height="@dimen/width_timebtn"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/timebtn_relative_month"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/timebtn_btn_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/workinfo_year_select" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/year"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_1" />
+    </RelativeLayout>
+
+</RelativeLayout>

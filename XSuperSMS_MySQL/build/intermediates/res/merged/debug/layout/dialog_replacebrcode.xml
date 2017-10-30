@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/replacebarcode_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/work_panel_select_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10_dip">
+
+    <TextView
+        android:id="@+id/repalce_barcode_title"
+        style="@style/font2_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_5_dip"
+        android:layout_marginTop="@dimen/dimen_5_dip"
+        android:gravity="center"
+        android:text="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oldbarcode_"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/repalce_barcode_tv"
+            style="@style/font2_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg"
+            android:ems="18"
+            android:gravity="center_vertical"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_5_dip"
+        android:layout_weight="1"
+        android:background="@drawable/input_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/newbarcode_"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/repalce_barcode_et"
+            style="@style/font2_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/img_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_2_dip"
+            android:src="@drawable/scan_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_5_dip"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/replace_barcode_confirm"
+            style="@style/font2_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_btn_confirm"
+            android:text="@string/confirm" />
+    </LinearLayout>
+
+</LinearLayout>

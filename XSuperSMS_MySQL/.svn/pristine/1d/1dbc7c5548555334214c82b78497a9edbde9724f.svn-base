@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_bar_top"
+            layout="@layout/layout_header" />
+
+        <EditText
+            android:id="@+id/stock_detail_et"
+            style="@style/font2_black"
+            android:layout_width="0.01dp"
+            android:layout_height="0.01dp"
+            android:background="@color/white"
+            android:singleLine="true" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/plan_content_bj"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/stock_check_detail_header"
+                    android:gravity="center"
+                    android:text="@string/stock_sheet" />
+
+                <ListView
+                    android:id="@+id/checkdetail_lv_server"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="2dp" >
+                </ListView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/stock_check_detail_center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/stock_check_detail_header"
+                    android:gravity="center"
+                    android:text="@string/reality_sheet" />
+
+                <com.xuesi.mos.libs.dragsortlistview.DragSortListView
+                    xmlns:dslv="http://schemas.android.com/apk/res/com.xuesi.sms"
+                    android:id="@+id/checkdetail_dslv_live"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="2dp"
+                    dslv:collapsed_height="2dp"
+                    dslv:drag_enabled="true"
+                    dslv:drag_handle_id="@id/drag_handle"
+                    dslv:drag_scroll_start="0.33"
+                    dslv:drag_start_mode="onDown"
+                    dslv:float_alpha="0.6"
+                    dslv:max_drag_scroll_speed="0.5"
+                    dslv:remove_enabled="true"
+                    dslv:remove_mode="flingRemove"
+                    dslv:slide_shuffle_speed="0.3"
+                    dslv:sort_enabled="true"
+                    dslv:track_drag_sort="false"
+                    dslv:use_default_controller="true" >
+                </com.xuesi.mos.libs.dragsortlistview.DragSortListView>
+
+                <ListView
+                    android:id="@+id/checkdetail_lv_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="2dp"
+                    android:visibility="gone" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gray_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="2dp" >
+
+                <EditText
+                    android:id="@+id/checkdetail_tv_stack"
+                    style="@style/font2_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/hw_set_btn"
+                style="@style/font3_black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/selector_btn_confirm"
+                android:text="set_hw"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/hw_btn"
+                style="@style/font3_black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/selector_btn_confirm"
+                android:text="Honeywell"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/checkdetail_btn_"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/selector_check_detail"
+                android:text="@string/barcode"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:src="@drawable/scan_small" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp" >
+
+                <Button
+                    android:id="@+id/checkdetail_clean_btn"
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:text="@string/clean_check"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/checkdetail_ok_btn"
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:text="@string/finish_check" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar_bottom"
+        layout="@layout/layout_footer" />
+
+</LinearLayout>

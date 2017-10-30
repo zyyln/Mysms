@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/crane_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10_dip">
+
+    <ListView
+        android:id="@+id/seleCrane_lv_haulage"
+        android:layout_width="@dimen/dimen_180_dip"
+        android:layout_height="@dimen/dimen_240_dip"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:layout_weight="6"
+        android:fadeScrollbars="false"
+        android:scrollbarFadeDuration="0" />
+
+    <Button
+        android:id="@+id/seleCrane_btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:layout_weight="1"
+        android:background="@drawable/work_panel_ok_button_selected"
+        android:text="@string/confirm"
+        android:textSize="@dimen/dimen_16_dip" />
+
+</LinearLayout>

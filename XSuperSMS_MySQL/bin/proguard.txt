@@ -1,0 +1,136 @@
+# view res/layout/activity_check_detail.xml #generated:82
+-keep class com.xuesi.mos.libs.dragsortlistview.DragSortListView { <init>(...); }
+
+# view res/layout/include_gv_stack.xml #generated:8
+-keep class com.xuesi.mos.libs.pulltorefresh.PullToRefreshGridView { <init>(...); }
+
+# view res/layout/activity_barcode_bind.xml #generated:340
+# view res/layout/activity_query_bills.xml #generated:163
+# view res/layout/activity_sheetdetail.xml #generated:27
+# view res/layout/copy_activity_barcode_bind.xml #generated:254
+# view res/layout/include_lv_sheet.xml #generated:7
+-keep class com.xuesi.mos.libs.pulltorefresh.PullToRefreshListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.xuesi.sms.SmsApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.xuesi.sms.app.activity.AdWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.xuesi.sms.app.activity.ArrayNaviActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.xuesi.sms.app.activity.BarcodeBindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.xuesi.sms.app.activity.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.xuesi.sms.app.activity.CheckActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.xuesi.sms.app.activity.CheckDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class com.xuesi.sms.app.activity.ConfigureFieldsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:256
+-keep class com.xuesi.sms.app.activity.ConnectBluetooth { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.xuesi.sms.app.activity.ContactUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.xuesi.sms.app.activity.CraneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.xuesi.sms.app.activity.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.xuesi.sms.app.activity.InputActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:223
+-keep class com.xuesi.sms.app.activity.LauModActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.xuesi.sms.app.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:154
+-keep class com.xuesi.sms.app.activity.OutputActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.xuesi.sms.app.activity.QueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.xuesi.sms.app.activity.QueryBillActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:208
+-keep class com.xuesi.sms.app.activity.ScanDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.xuesi.sms.app.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.xuesi.sms.app.activity.SheetDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.xuesi.sms.app.activity.ShiftActivity { <init>(...); }
+
+# view res/layout/activity_frag.xml #generated:14
+-keep class com.xuesi.sms.app.activity.StackFlagment { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.xuesi.sms.app.activity.StoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.xuesi.sms.app.activity.StoreTypeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.xuesi.sms.app.activity.WorkInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.xuesi.sms.app.activity.WorkInfoPlanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.xuesi.sms.app.activity.WorkInfoReserveActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.xuesi.sms.app.activity.WorkInfoUseRatioActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.xuesi.sms.app.activity.WorkInfoYieldActivity { <init>(...); }
+
+# view res/layout/activity_frag.xml #generated:7
+-keep class com.xuesi.sms.app.fragment.SheetFragment { <init>(...); }
+
+# view res/layout/activity_scan.xml #generated:25
+-keep class com.xuesi.sms.util.scan.ViewfinderView { <init>(...); }
+
+# view res/layout/activity_work_info.xml #generated:388
+# view res/layout/activity_work_info.xml #generated:438
+# view res/layout/activity_work_info.xml #generated:492
+# view res/layout/activity_workinfo_plan.xml #generated:126
+# view res/layout/activity_workinfo_useratio.xml #generated:67
+-keep class com.xuesi.sms.widget.DashBoardView { <init>(...); }
+
+# view res/layout/activity_work_info.xml #generated:61
+-keep class com.xuesi.sms.widget.PercentView { <init>(...); }
+
+# view res/layout/item_scrollview_billfield.xml #generated:21
+# view res/layout/item_scrollview_querybill.xml #generated:21
+-keep class com.xuesi.sms.widget.scrolllistview.InterceptScrollContainer { <init>(...); }
+
+# view res/layout/item_scrollview_billfield.xml #generated:28
+# view res/layout/item_scrollview_querybill.xml #generated:28
+-keep class com.xuesi.sms.widget.scrolllistview.MyHScrollView { <init>(...); }
+
+# onClick res/layout/activity_query_bills.xml #generated:137
+-keepclassmembers class * { *** searchBill(...); }
+
+# onClick res/layout/activity_query_bills.xml #generated:107
+-keepclassmembers class * { *** showStartDatePickDlg(...); }
+
+# onClick res/layout/activity_query_bills.xml #generated:121
+-keepclassmembers class * { *** showStopDatePickDlg(...); }
+

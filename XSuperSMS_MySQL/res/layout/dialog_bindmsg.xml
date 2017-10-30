@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_2_dip"
+        android:layout_weight="1"
+        android:text="@string/sheet_msg" />
+
+    <ListView
+        android:id="@+id/lv_dialogBindmsg"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_3_dip"
+        android:layout_weight="7"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/dimen_2_dip"
+        android:fadeScrollbars="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarFadeDuration="0"
+        android:scrollbars="none" />
+
+    <Button
+        android:id="@+id/billNo_confirm"
+        style="@style/font2_white"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_2_dip"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_confirm"
+        android:text="@string/confirm" />
+
+</LinearLayout>

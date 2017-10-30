@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\libs\android_extension.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7fb6fee4b2ff1f33e1506245943532251f8c22b9">
+        <dex dex="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\build\intermediates\pre-dexed\debug\android_extension_49d20a27e0ed028e317948e4b5be725ddc1afa54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ASPlace\XSUPERSMS\MosLibrary-XUESI\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8663a9061df79e07b88ad7b7189e7f84598c4746">
+        <dex dex="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\build\intermediates\pre-dexed\debug\classes_9610df17a3d5bd394dc6dff59306dde20eaa16a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\build\intermediates\pre-dexed\debug\achartengine-1.1.0_4d236337c37dbd0bca02a942ba3bc97804d642af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
+        <dex dex="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\build\intermediates\pre-dexed\debug\core_2c67619e41d563f91c522d68b31be958638b6f35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\libs\uhfreaderapi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d5d6b255d4daf75581457d7f3d2881f802bfac">
+        <dex dex="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\build\intermediates\pre-dexed\debug\uhfreaderapi_56c995c6eecf9306e58ab0327c8cbe30d7ec35c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ASPlace\XSUPERSMS\MosLibrary-XUESI\build\intermediates\bundles\default\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15c03170be6fbbb27ca5bae0eb284fef5755253a">
+        <dex dex="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\build\intermediates\pre-dexed\debug\android-support-v4_e2603fe295e8ca32e152138fa244041c44d320d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\build\intermediates\pre-dexed\debug\gson-2.2.4_ead78e7419dc4a6622c6cc38a2ec8a0dd540f3b1.jar" />
+    </item>
+
+</items>

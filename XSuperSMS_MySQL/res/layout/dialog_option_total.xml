@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/work_panel_select_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10_dip" >
+
+    <TextView
+        android:id="@+id/total_tv_sheetdetail"
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_options"
+        android:gravity="center"
+        android:text="@string/detail_info" />
+
+    <TextView
+        android:id="@+id/total_tv_sheettosp"
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_options"
+        android:gravity="center"
+        android:text="@string/shift" />
+
+    <Spinner
+        android:id="@+id/total_sp_sheetrust"
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:layout_weight="1"
+        android:background="@drawable/selector_sp_options"
+        android:entries="@array/sheetrust"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/total_tv_sheetrust"
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_options"
+        android:gravity="center"
+        android:text="@string/sheet_rust" />
+
+    <TextView
+        android:id="@+id/total_tv_outstock"
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_options"
+        android:gravity="center"
+        android:text="@string/please_out_stock"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/total_tv_upbarcode"
+        style="@style/font2_black"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_options"
+        android:gravity="center"
+        android:text="@string/replace_barcode" />
+
+</LinearLayout>

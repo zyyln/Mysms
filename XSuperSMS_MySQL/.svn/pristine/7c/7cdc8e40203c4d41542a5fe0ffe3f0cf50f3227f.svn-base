@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stock_check_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_stock_wating"
+    android:gravity="center"
+    android:minHeight="65dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stack_"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_4" />
+
+        <TextView
+            android:id="@+id/stock_check_item_cargo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1P1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/height_"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_4" />
+
+        <TextView
+            android:id="@+id/stock_check_item_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity_"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_4" />
+
+        <TextView
+            android:id="@+id/stock_check_item_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15张"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_4" />
+    </LinearLayout>
+
+</LinearLayout>

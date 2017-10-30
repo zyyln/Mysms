@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40_dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dimen_5_dip"
+        android:layout_weight="1"
+        android:background="@drawable/plan_content_bj"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_50_dip"
+                    android:layout_marginTop="@dimen/dimen_5_dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/workInfo_yield_weight_title" />
+
+                    <TextView
+                        android:id="@+id/workInfo_yield_weight_title"
+                        style="@style/font3_white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dimen_25_dip"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_3_dip"
+                        android:background="@color/plan_orange"
+                        android:gravity="center"
+                        android:minWidth="@dimen/dimen_40_dip"
+                        android:paddingLeft="@dimen/dimen_5_dip"
+                        android:paddingRight="@dimen/dimen_5_dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/workinfo_yield_weight_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_5_dip"
+                    android:layout_weight="1"
+                    android:orientation="vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_50_dip"
+                    android:layout_marginTop="@dimen/dimen_5_dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/workInfo_yield_count_title" />
+
+                    <TextView
+                        android:id="@+id/workInfo_yield_count_title"
+                        style="@style/font3_white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dimen_25_dip"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_3_dip"
+                        android:background="@color/plan_green"
+                        android:gravity="center"
+                        android:minWidth="@dimen/dimen_40_dip"
+                        android:paddingLeft="@dimen/dimen_5_dip"
+                        android:paddingRight="@dimen/dimen_5_dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/workinfo_yield_count_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_5_dip"
+                    android:layout_weight="1"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5_dip"
+            android:layout_marginTop="@dimen/dimen_5_dip">
+
+            <include
+                layout="@layout/layout_timebtn_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dimen_5_dip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_30_dip"
+                    android:layout_height="@dimen/dimen_1_dip"
+                    android:layout_gravity="center"
+                    android:background="@color/plan_orange" />
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_1_dip"
+                    android:text="@string/workInfo_yield_weight" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="@dimen/dimen_1_dip"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_5_dip"
+                    android:background="@color/plan_green" />
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_1_dip"
+                    android:text="@string/workInfo_yield_count" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>

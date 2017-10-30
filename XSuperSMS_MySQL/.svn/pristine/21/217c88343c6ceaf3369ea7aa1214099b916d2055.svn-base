@@ -1,0 +1,203 @@
+package com.android.sms.honeywell;
+
+import java.util.HashMap;
+
+import android.content.Context;
+import android.media.AudioManager;
+import android.media.SoundPool;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.raylinks.Function;
+import com.raylinks.ModuleControl;
+
+public class HoneyWell {
+	ModuleControl moduleControl = new ModuleControl();
+	Function fun = new Function();
+	// 扫描方式
+	private int inventoryFlag;
+	// 开始/停止扫描
+	private boolean loopFlag;
+	private Context context;
+	private byte flagCrc;
+	private byte initQ;
+
+	private SoundPool soundpool;
+	private static int soundId;
+	private int beedmp3;
+
+	private Callback mCallback;
+	/** 获取实例 */
+	public static HoneyWell instance;
+
+	/** 单例模式中获取唯一的HoneyWell实例 */
+	public static HoneyWell getInstance(Context context, int beep) {
+		if (null == instance) {
+			instance = new HoneyWell(context, beep);
+		}
+		return instance;
+	}
+
+	public HoneyWell(Context context, int beep) {
+		// TODO Auto-generated constructor stub
+		this.context = context;
+		this.mCallback = (Callback) context;
+		this.beedmp3 = beep;
+		soundpool = new SoundPool(5, AudioManager.STREAM_SYSTEM, 5);
+		soundId = soundpool.load(context, beedmp3, 1);
+	}
+
+	public boolean isLoopFlag() {
+		return loopFlag;
+	}
+
+	public void setLoopFlag(boolean loopFlag) {
+		this.loopFlag = loopFlag;
+	}
+
+	public int getInventoryFlag() {
+		return inventoryFlag;
+	}
+
+	public void setInventoryFlag(int inventoryFlag) {
+		this.inventoryFlag = inventoryFlag;
+	}
+
+	public byte getInitQ() {
+		return initQ;
+	}
+
+	public void setInitQ(byte initQ) {
+		this.initQ = initQ;
+	}
+
+	/*
+	 * 标签识别
+	 */
+	public void barcodeRg() {
+		if (inventoryFlag == 0) {
+			barcodeSingleRg();
+		} else if (inventoryFlag == 1) {
+			barcodeLoopRg();
+		} else {
+			barcodeInventoryRg();
+		}
+	}
+
+	/*
+	 * 停止识别
+	 */
+	public void barcodeStopRg() {
+		loopFlag = false;
+		if (moduleControl.UhfStopOperation(flagCrc)) {
+			mCallback.notifyUI("识别标签");
+		} else {
+			Toast.makeText(context, "停止识别标签失败", 0).show();
+		}
+	}
+
+	/*
+	 * 单步识别
+	 */
+	private void barcodeSingleRg() {
+		byte[] bLenUii = new byte[1];
+		byte[] bUii = new byte[255];
+		int index = -1;
+		if (moduleControl.UhfInventorySingleTag(bLenUii, bUii, flagCrc)) {
+			soundpool.play(soundId, 1, 1, 0, 0, 1);
+			String sUii = fun.bytesToHexString(bUii, bLenUii[0]);
+			String tagLen = String.valueOf(bLenUii[0]);
+			String uhfcode = sUii.substring(0, 5);
+			mCallback.onHwSuccess(uhfcode);
+		} else {
+			Toast.makeText(context, "单步识别失败", 0).show();
+		}
+	}
+
+	/*
+	 * 单步循环识别
+	 */
+	private void barcodeLoopRg() {
+		if (moduleControl.UhfStartInventory((byte) 0, (byte) 0, flagCrc)) {
+			mCallback.notifyUI("停止识别");
+			setLoopFlag(true);
+			new TagThread().start();
+		} else {
+			moduleControl.UhfStopOperation(flagCrc);
+		}
+	}
+
+	/*
+	 * 放碰撞
+	 */
+	private void barcodeInventoryRg() {
+		if (moduleControl.UhfStartInventory((byte) 1, getInitQ(), flagCrc)) {
+			mCallback.notifyUI("停止识别");
+			setLoopFlag(true);
+			new TagThread().start();
+		} else {
+			moduleControl.UhfStopOperation(flagCrc);
+		}
+	}
+
+	Handler handler = new Handler() {
+
+		@Override
+		public void handleMessage(Message msg) {
+
+			Bundle bundle = msg.getData();
+			String tagUii = bundle.getString("tagUii");
+
+			boolean bool = false;
+			int index = -1;
+			try {
+				bool = (tagUii != "") && (!tagUii.equals(null));
+			} catch (Exception e) {
+				Log.v("BreakPoint", "异常：" + e.getMessage());
+				e.printStackTrace();
+			}
+
+			if (bool) {
+				mCallback.onHwSuccess(tagUii);
+			}
+		}
+	};
+
+	class TagThread extends Thread {
+
+		HashMap<String, String> map;
+
+		public void run() {
+			byte[] bLenUii = new byte[1];
+			byte[] bUii = new byte[255];
+
+			while (loopFlag) {
+				if (moduleControl.UhfReadInventory(bLenUii, bUii)) {
+					soundpool.play(soundId, 1, 1, 0, 0, 1);
+					String sUii = fun.bytesToHexString(bUii, bLenUii[0]);
+
+					Message msg = handler.obtainMessage();
+					Bundle bundle = new Bundle();
+					bundle.putString("tagUii", sUii);
+					bundle.putByte("tagLen", bLenUii[0]);
+
+					msg.setData(bundle);
+					handler.sendMessage(msg);
+				}
+
+			}
+		}
+	}
+
+	public interface Callback {
+		public void onHwSuccess(String code);
+
+		public void notifyUI(String str);
+
+		// public abstract void onScanFail(String code);
+	}
+
+}

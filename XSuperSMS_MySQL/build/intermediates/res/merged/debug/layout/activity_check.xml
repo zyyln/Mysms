@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_40_dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <include
+            layout="@layout/layout_housestore"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_30_dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_80_dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dimen_5_dip"
+        android:layout_weight="1"
+        android:background="@drawable/plan_content_bj"
+        android:orientation="horizontal">
+
+        <include
+            layout="@layout/include_gv_stack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_2_dip"
+            android:layout_weight="@dimen/dimen_5_dip" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_2_dip"
+            android:layout_weight="1.2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/start_check_btn"
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/normal_btn_bg"
+                    android:text="@string/stock_check_begin" />
+
+                <Button
+                    android:id="@+id/end_check_btn"
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/normal_btn_bg"
+                    android:text="@string/stock_check_stop"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/stock_bound_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dip">
+
+                <RadioButton
+                    android:id="@+id/stock_senior_radio"
+                    style="@style/StyleRadioBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingBottom="@dimen/dimen_10_dip"
+                    android:paddingTop="@dimen/dimen_10_dip"
+                    android:text="@string/terminal"
+                    android:textSize="@dimen/dimen_12_dip" />
+
+                <RadioButton
+                    android:id="@+id/stock_sub_radio"
+                    style="@style/StyleRadioBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_5_dip"
+                    android:paddingBottom="@dimen/dimen_10_dip"
+                    android:paddingTop="@dimen/dimen_10_dip"
+                    android:text="@string/pressurizedDepot"
+                    android:textSize="@dimen/dimen_12_dip"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/stock_remainder_radio"
+                    style="@style/StyleRadioBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_5_dip"
+                    android:paddingBottom="@dimen/dimen_10_dip"
+                    android:paddingTop="@dimen/dimen_10_dip"
+                    android:text="@string/remaining"
+                    android:textSize="@dimen/dimen_12_dip" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dip"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_20_dip"
+                    android:layout_height="@dimen/dimen_20_dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_stock_wating_type" />
+
+                <TextView
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_check_wating" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_20_dip"
+                    android:layout_height="@dimen/dimen_20_dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_stock_finish_type" />
+
+                <TextView
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_check_finish" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_20_dip"
+                    android:layout_height="@dimen/dimen_20_dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_stock_error_type" />
+
+                <TextView
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_check_error" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_20_dip"
+                    android:layout_height="@dimen/dimen_20_dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_stock_need_reindex_type" />
+
+                <TextView
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_check_need_reindex" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>

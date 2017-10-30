@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 50,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 50,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 101,
+                    "endOffset": 257
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 101,
+                        "endOffset": 257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 262,
+                    "endColumn": 113,
+                    "endOffset": 371
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 262,
+                        "endColumn": 113,
+                        "endOffset": 371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 376,
+                    "endColumn": 107,
+                    "endOffset": 479
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 376,
+                        "endColumn": 107,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 484,
+                    "endColumn": 60,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 60,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endColumn": 66,
+                    "endOffset": 607
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 66,
+                        "endOffset": 607
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 612,
+                    "endColumn": 64,
+                    "endOffset": 672
+                },
+                "from": {
+                    "file": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 612,
+                        "endColumn": 64,
+                        "endOffset": 672
+                    }
+                }
+            }
+        ]
+    }
+]

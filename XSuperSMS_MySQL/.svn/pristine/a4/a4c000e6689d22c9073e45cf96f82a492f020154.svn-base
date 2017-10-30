@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99464547"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/crane_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_input_type" />
+
+        <RadioGroup
+            android:id="@+id/input_radg_inputtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/input_radioBtn_normal"
+                style="@style/styles_RadioBtn_house"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/input_normal" />
+
+            <RadioButton
+                android:id="@+id/input_radioBtn_other"
+                style="@style/styles_RadioBtn_house"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/fsk_inputno" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/input_btn_confirm"
+            style="@style/font2_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/work_panel_ok_button_selected"
+            android:text="@string/confirm"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

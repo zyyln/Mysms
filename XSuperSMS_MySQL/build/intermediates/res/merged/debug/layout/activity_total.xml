@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical"
+    tools:context=".activity.TotalActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_40_dip" />
+
+        <include
+            layout="@layout/layout_housestore"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_30_dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_80_dip" />
+    </RelativeLayout>
+
+    <!-- 中间内容信息 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dimen_5_dip"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/include_gv_stack"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8" />
+
+            <!-- 库存级别 -->
+
+            <RadioGroup
+                android:id="@+id/stack_group"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_5_dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/one_stack_btn"
+                    style="@style/styles_RadioBtn_house"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_13_dip"
+                    android:checked="true"
+                    android:text="@string/terminal"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_15_dip" />
+
+                <RadioButton
+                    android:id="@+id/two_stack_btn"
+                    style="@style/styles_RadioBtn_house"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_50_dip"
+                    android:text="@string/pressurizedDepot"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_15_dip" />
+
+                <RadioButton
+                    android:id="@+id/three_stack_btn"
+                    style="@style/styles_RadioBtn_house"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_50_dip"
+                    android:text="@string/remaining"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_15_dip" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:layout_weight="2"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_3_dip">
+
+            <!-- 钢板查询信息 -->
+
+            <TextView
+                style="@style/font2_white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/deep_gray"
+                android:gravity="center"
+                android:text="@string/query_info" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:background="@drawable/light_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/barcode_" />
+
+                <EditText
+                    android:id="@+id/bar_code_tv"
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/transparent" />
+
+                <ImageView
+                    android:id="@+id/img_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_2_dip"
+                    android:src="@drawable/scan_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:background="@drawable/light_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suit_cut_" />
+
+                <EditText
+                    android:id="@+id/et_suit_cut"
+                    style="@style/font3_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/material_" />
+
+                    <EditText
+                        android:id="@+id/stock_material_tv"
+                        style="@style/styles_input_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_2_dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/thickness_" />
+
+                    <EditText
+                        android:id="@+id/stock_thick_tv"
+                        style="@style/styles_input_font" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/length_" />
+
+                    <EditText
+                        android:id="@+id/stock_length_tv"
+                        style="@style/styles_input_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_2_dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/width_" />
+
+                    <EditText
+                        android:id="@+id/stock_width_tv"
+                        style="@style/styles_input_font" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/section_" />
+
+                    <EditText
+                        android:id="@+id/assemblyNo_tv"
+                        style="@style/styles_input_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_2_dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/project_" />
+
+                    <EditText
+                        android:id="@+id/project_tv"
+                        style="@style/styles_input_font" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time_" />
+
+                    <EditText
+                        android:id="@+id/time_tv"
+                        style="@style/styles_input_font"
+                        android:inputType="datetime" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/query_btn"
+                style="@style/font2_black"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_confirm"
+                android:gravity="center"
+                android:text="@string/query" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stack_count_" />
+
+                    <TextView
+                        android:id="@+id/total_tv_stackcount"
+                        style="@style/styles_input_font" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_2_dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/light_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/steel_plate_count_" />
+
+                    <TextView
+                        android:id="@+id/total_tv_sheetcount"
+                        style="@style/font3_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_2_dip"
+                android:layout_weight="1"
+                android:background="@drawable/light_gray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/query_ok_steel_" />
+
+                <TextView
+                    android:id="@+id/total_tv_sheetnum"
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>

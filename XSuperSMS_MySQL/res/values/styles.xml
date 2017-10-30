@@ -1,0 +1,193 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowAnimationStyle">@style/AppAnimotion</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- ******************************************** -->
+    <!-- *******************xml动画****************** -->
+    <!-- ******************************************** -->
+    <style name="AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out2</item>
+    </style>
+
+    <style name="AppAnimotion" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/detault_admin_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_stay</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_stay</item>
+        <item name="android:activityCloseExitAnimation">@anim/detault_admin_out</item>
+    </style>
+
+    <!-- ******************************************** -->
+    <!-- ********************控件样式****************** -->
+    <!-- ******************************************** -->
+    <style name="styles_CheckBox_device">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:checked">true</item>
+        <item name="android:minHeight">@dimen/dimen_26_dip</item>
+        <item name="android:paddingLeft">@dimen/dimen_20_dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+    </style>
+
+    <style name="styles_RadioBtn_house" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/selector_btn_confirm</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 垛位总览-查询输入文字样式 -->
+    <style name="styles_input_font">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+
+    <!-- 信息查询按钮样式 -->
+    <style name="styles_infoquery_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+
+    <style name="styles_infoquery_edit">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- *************字体样式************ -->
+    <style name="font2_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+    </style>
+
+    <style name="font2_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+    </style>
+
+    <style name="font3_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+
+    <style name="font3_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+
+    <!-- 条码绑定界面 -->
+
+    <style name="BarcodeRadioBtnTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/selector_btn_confirm</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 库存盘点RadioBtn -->
+    <style name="StyleRadioBtn" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/selector_btn_confirm</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 系统设置 -->
+    <style name="setting_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_60_dip</item>
+        <item name="android:background">@drawable/setting_item_bg</item>
+    </style>
+
+    <style name="setting_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_10_dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="setting_arrow_img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/dimen_20_dip</item>
+        <item name="android:src">@drawable/list_item_arrow</item>
+    </style>
+
+    <!-- ********************自定义主题***************** -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--  -->
+    </style>
+
+    <!-- 进入activity前选择框的主题 -->
+    <style name="dialog_storetype" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <!-- loading_dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- 删除 显示消失动画 -->
+
+    <style name="popwindow_delete_btn_anim_style">
+        <item name="android:windowEnterAnimation">@anim/delete_btn_show</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/delete_btn_hide</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+
+</resources>

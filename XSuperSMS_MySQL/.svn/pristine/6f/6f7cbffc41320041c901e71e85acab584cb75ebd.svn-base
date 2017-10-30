@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar_top"
+        layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/query_steel"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/normal_btn_bg"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/styles_infoquery_text"
+                    android:text="@string/barcode_" />
+
+                <EditText
+                    android:id="@+id/info_query_steel_code"
+                    style="@style/styles_infoquery_edit" />
+
+                <ImageView
+                    android:id="@+id/img_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/scan_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/normal_btn_bg"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        style="@style/styles_infoquery_text"
+                        android:text="@string/thickness_" />
+
+                    <EditText
+                        android:id="@+id/info_query_steel_thickness"
+                        style="@style/styles_infoquery_edit"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/normal_btn_bg"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        style="@style/styles_infoquery_text"
+                        android:text="@string/material_" />
+
+                    <EditText
+                        android:id="@+id/info_query_steel_material"
+                        style="@style/styles_infoquery_edit" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/normal_btn_bg"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        style="@style/styles_infoquery_text"
+                        android:text="@string/length_" />
+
+                    <EditText
+                        android:id="@+id/info_query_steel_length"
+                        style="@style/styles_infoquery_edit"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/normal_btn_bg"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        style="@style/styles_infoquery_text"
+                        android:text="@string/width_" />
+
+                    <EditText
+                        android:id="@+id/info_query_steel_width"
+                        style="@style/styles_infoquery_edit"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/normal_btn_bg"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        style="@style/styles_infoquery_text"
+                        android:text="@string/project_" />
+
+                    <EditText
+                        android:id="@+id/info_query_steel_project"
+                        style="@style/styles_infoquery_edit" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/normal_btn_bg"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        style="@style/styles_infoquery_text"
+                        android:text="@string/section_" />
+
+                    <EditText
+                        android:id="@+id/info_query_steel_section"
+                        style="@style/styles_infoquery_edit" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/normal_btn_bg"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/styles_infoquery_text"
+                    android:text="@string/time_" />
+
+                <EditText
+                    android:id="@+id/info_query_steel_time"
+                    style="@style/styles_infoquery_edit"
+                    android:hint="YYYYMMDD"
+                    android:inputType="date" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/info_query_steel_btn"
+                style="@style/font2_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/selector_btn_confirm"
+                android:text="@string/query"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                layout="@layout/item_lv_info_query_steel" />
+
+            <ListView
+                android:id="@+id/info_query_result_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/shape_rectangle_rim"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="2dp"
+                android:fadingEdge="none" >
+            </ListView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/work_panel_text_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_query_result_total" />
+
+                <TextView
+                    android:id="@+id/infoquery_tv_total"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/steel_count_" />
+
+                <TextView
+                    android:id="@+id/infoquery_tv_value"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar_bottom"
+        layout="@layout/layout_footer" />
+
+</LinearLayout>

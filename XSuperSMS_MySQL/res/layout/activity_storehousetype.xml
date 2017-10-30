@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40_dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_10_dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/storehousetype_radiog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dip"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/storehousetype_radioBtn_fsk"
+                style="@style/styles_RadioBtn_house"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_10_dip"
+                android:text="@string/terminal" />
+
+            <RadioButton
+                android:id="@+id/storehousetype_radioBtn_sck"
+                style="@style/styles_RadioBtn_house"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20_dip"
+                android:padding="@dimen/dimen_10_dip"
+                android:text="@string/pressurizedDepot"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/storehousetype_radioBtn_rck"
+                style="@style/styles_RadioBtn_house"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20_dip"
+                android:padding="@dimen/dimen_10_dip"
+                android:text="@string/remaining" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/storehousetype_btn_confirm"
+            style="@style/font2_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_20_dip"
+            android:background="@drawable/work_panel_ok_button_selected"
+            android:text="@string/confirm"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>

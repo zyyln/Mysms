@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:minHeight="34dp"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_from_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/crane_work_panel_from" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_to_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/crane_work_panel_to" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_material_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/material" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_spec_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/crane_work_panel_spec" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_num_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/quantity" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_singleweight_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/crane_work_panel_single_weight" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_author_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/crane_work_panel_author" />
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/crane_work_panel_list_remark_txt"
+        style="@style/font2_black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/remarks" />
+
+</LinearLayout>

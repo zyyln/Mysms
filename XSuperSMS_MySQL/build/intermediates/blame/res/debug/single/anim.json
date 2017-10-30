@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\loading_animation.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\loading_animation.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\push_out.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\push_out.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\anim_stay.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\anim_stay.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\detault_admin_out.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\detault_admin_out.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out2.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\push_top_out2.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\detault_admin_in.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\detault_admin_in.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\delete_btn_show.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\delete_btn_show.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in2.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\push_top_in2.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\anim_top_out.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\anim_top_out.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\anim_listview_item.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\anim_listview_item.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\anim_top_in.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\anim_top_in.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\anim\\delete_btn_hide.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\anim\\delete_btn_hide.xml"
+    }
+]

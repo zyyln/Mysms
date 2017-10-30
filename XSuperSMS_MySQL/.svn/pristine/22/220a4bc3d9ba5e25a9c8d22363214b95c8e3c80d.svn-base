@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sheetDetail_rootLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/work_panel_select_bg"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/stack_id_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sheet_name_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sheet_code_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/barcode_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sheet_floor_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/material_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/thickness_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/length_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/width_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/weight_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/quantity_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/material_id" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/material_name" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/supplier_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/batch_id_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/checkoutid_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/specification_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/projectid_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/assemblyid_" />
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/intime_" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_stackno"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_sheetname"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_sheetno"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_barcode"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+            <!-- 层号 -->
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_floorno"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <!-- 材质 -->
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_material"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_thickness"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_length"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_width"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_weight"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_quantity"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_materialno"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+            <!-- 物料名称(材质)下面 -->
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_materialname"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+            <!-- 供应商 -->
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_supplier"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_batchnum"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_checkoutid"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_specifications"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_projectno"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+            <!-- 分段号 -->
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_AssemblyId"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/sheetdetail_tv_intime"
+                style="@style/font2_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

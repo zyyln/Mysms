@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/grantDetail_rb_info"
+        style="@style/font3_white"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/selector_item_sheetin"
+        android:button="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:singleLine="true" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
+
+<XSuperSMS>
+	<fileName>XSuperSMS_V3.2.0.8.apk</fileName>
+    <versionCode>108</versionCode>
+	<versionName>3.2.0.8</versionName>
+	<updateTime>2017年9月12日</updateTime>
+    <description>更新的内容有：1、出库接口选择最短倒垛路径2、合并之前版本，此版本作为SMS的基础版</description>
+</XSuperSMS>
+
+</app>

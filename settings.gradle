@@ -1,0 +1,2 @@
+include ':XSuperSMS_MySQL', ':myapplication'
+include ':MosLibrary-XUESI'

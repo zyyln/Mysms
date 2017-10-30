@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bills_fields">
+        <item>单号类型</item>
+        <item>采购单号</item>
+        <item>条形码</item>
+        <item>钢板名称</item>
+        <item>是否余料</item>
+        <item>材质</item>
+        <item>厚度</item>
+        <item>长度</item>
+        <item>宽度</item>
+        <item>重量</item>
+        <item>数量</item>
+        <item>供应商</item>
+        <item>备注</item>
+        <item>单位</item>
+        <item>炉批号</item>
+        <item>工程号</item>
+        <item>部套号</item>
+        <item>型材规格</item>
+        <item>创建时间</item>
+    </string-array>
+    <string-array name="sheetType">
+        <item>全部</item>
+        <item>已入库</item>
+        <item>已到货</item>
+        <item>未到货</item>
+    </string-array>
+    <string-array name="configure_">
+        <item>钢板</item>
+        <item>采购单号</item>
+    </string-array>
+     <string-array name="sheetrust">
+        <item>完好</item>
+        <item>锈蚀</item>
+        <item>麻点</item>
+        <item>废料</item>
+    </string-array>
+     <string-array name="arrayAntiQ">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+</resources>

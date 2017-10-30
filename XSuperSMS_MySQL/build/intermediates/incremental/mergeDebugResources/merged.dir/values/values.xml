@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayAntiQ">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="bills_fields">
+        <item>单号类型</item>
+        <item>采购单号</item>
+        <item>条形码</item>
+        <item>钢板名称</item>
+        <item>是否余料</item>
+        <item>材质</item>
+        <item>厚度</item>
+        <item>长度</item>
+        <item>宽度</item>
+        <item>重量</item>
+        <item>数量</item>
+        <item>供应商</item>
+        <item>备注</item>
+        <item>单位</item>
+        <item>炉批号</item>
+        <item>工程号</item>
+        <item>部套号</item>
+        <item>型材规格</item>
+        <item>创建时间</item>
+    </string-array>
+    <string-array name="configure_">
+        <item>钢板</item>
+        <item>采购单号</item>
+    </string-array>
+    <string-array name="sheetType">
+        <item>全部</item>
+        <item>已入库</item>
+        <item>已到货</item>
+        <item>未到货</item>
+    </string-array>
+    <string-array name="sheetrust">
+        <item>完好</item>
+        <item>锈蚀</item>
+        <item>麻点</item>
+        <item>废料</item>
+    </string-array>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="antiquewhite">#FAEBD7</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="bisque">#FFE4C4</color>
+    <color name="black">#000000</color>
+    <color name="blanchedalmond">#FFEBCD</color>
+    <color name="blue">#0000FF</color>
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="brown">#A52A2A</color>
+    <color name="burlywood">#DEB887</color>
+    <color name="cadetblue">#5F9EA0</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="coral">#FF7F50</color>
+    <color name="cornflowerblue">#6495ED</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="crimson">#DC143C</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="darkblue">#00008B</color>
+    <color name="darkcyan">#008B8B</color>
+    <color name="darkgoldenrod">#B8860B</color>
+    <color name="darkgray">#A9A9A9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#A9A9A9</color>
+    <color name="darkkhaki">#BDB76B</color>
+    <color name="darkmagenta">#8B008B</color>
+    <color name="darkolivegreen">#556B2F</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="darkorchid">#9932CC</color>
+    <color name="darkred">#8B0000</color>
+    <color name="darksalmon">#E9967A</color>
+    <color name="darkseagreen">#8FBC8F</color>
+    <color name="darkslateblue">#483D8B</color>
+    <color name="darkslategray">#2F4F4F</color>
+    <color name="darkslategrey">#2F4F4F</color>
+    <color name="darkturquoise">#00CED1</color>
+    <color name="darkviolet">#9400D3</color>
+    <color name="deeppink">#FF1493</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="firebrick">#B22222</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="forestgreen">#228B22</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="gold">#FFD700</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="greenyellow">#ADFF2F</color>
+    <color name="grey">#808080</color>
+    <color name="halftransparent">#b0000000</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="hotpink">#FF69B4</color>
+    <color name="indianred">#CD5C5C</color>
+    <color name="indigo">#4B0082</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="lavenderblush">#FFF0F5</color>
+    <color name="lawngreen">#7CFC00</color>
+    <color name="lemonchiffon">#FFFACD</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="lightcoral">#F08080</color>
+    <color name="lightcyan">#E0FFFF</color>
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="lightgreen">#90EE90</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="lightpink">#FFB6C1</color>
+    <color name="lightsalmon">#FFA07A</color>
+    <color name="lightseagreen">#20B2AA</color>
+    <color name="lightskyblue">#87CEFA</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightsteelblue">#B0C4DE</color>
+    <color name="lightyellow">#FFFFE0</color>
+    <color name="lime">#00FF00</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66CDAA</color>
+    <color name="mediumblue">#0000CD</color>
+    <color name="mediumorchid">#BA55D3</color>
+    <color name="mediumpurple">#9370DB</color>
+    <color name="mediumseagreen">#3CB371</color>
+    <color name="mediumslateblue">#7B68EE</color>
+    <color name="mediumspringgreen">#00FA9A</color>
+    <color name="mediumturquoise">#48D1CC</color>
+    <color name="mediumvioletred">#C71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#F5FFFA</color>
+    <color name="mistyrose">#FFE4E1</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="navajowhite">#FFDEAD</color>
+    <color name="navy">#000080</color>
+    <color name="oldlace">#FDF5E6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6B8E23</color>
+    <color name="orange">#FFA500</color>
+    <color name="orangered">#FF4500</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="palegoldenrod">#EEE8AA</color>
+    <color name="palegreen">#98FB98</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="palevioletred">#DB7093</color>
+    <color name="papayawhip">#FFEFD5</color>
+    <color name="peachpuff">#FFDAB9</color>
+    <color name="peru">#CD853F</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="plan_green">#FF84AC46</color>
+    <color name="plan_orange">#FFF0603A</color>
+    <color name="plum">#DDA0DD</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="rosybrown">#BC8F8F</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="saddlebrown">#8B4513</color>
+    <color name="salmon">#FA8072</color>
+    <color name="sandybrown">#F4A460</color>
+    <color name="seagreen">#2E8B57</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="sienna">#A0522D</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="skyblue">#87CEEB</color>
+    <color name="slateblue">#6A5ACD</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="springgreen">#00FF7F</color>
+    <color name="steelblue">#4682B4</color>
+    <color name="tan">#D2B48C</color>
+    <color name="teal">#008080</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="tomato">#FF6347</color>
+    <color name="transparent">#00000000</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="violet">#EE82EE</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="DragSortListView"><attr format="dimension" name="collapsed_height"/><attr format="float" name="drag_scroll_start"/><attr format="float" name="max_drag_scroll_speed"/><attr format="color" name="float_background_color"/><attr name="remove_mode">
+            <enum name="clickRemove" value="0"/>
+            <enum name="flingRemove" value="1"/>
+        </attr><attr format="boolean" name="track_drag_sort"/><attr format="float" name="float_alpha"/><attr format="float" name="slide_shuffle_speed"/><attr format="integer" name="remove_animation_duration"/><attr format="integer" name="drop_animation_duration"/><attr format="boolean" name="drag_enabled"/><attr format="boolean" name="sort_enabled"/><attr format="boolean" name="remove_enabled"/><attr name="drag_start_mode">
+            <enum name="onDown" value="0"/>
+            <enum name="onMove" value="1"/>
+            <enum name="onLongPress" value="2"/>
+        </attr><attr format="integer" name="drag_handle_id"/><attr format="integer" name="fling_handle_id"/><attr format="integer" name="click_remove_id"/><attr format="boolean" name="use_default_controller"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+
+            
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+        </attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <dimen name="dimen_0.5_dip">0.5px</dimen>
+    <dimen name="dimen_100_dip">100px</dimen>
+    <dimen name="dimen_101_dip">101px</dimen>
+    <dimen name="dimen_102_dip">102px</dimen>
+    <dimen name="dimen_103_dip">103px</dimen>
+    <dimen name="dimen_104_dip">104px</dimen>
+    <dimen name="dimen_105_dip">105px</dimen>
+    <dimen name="dimen_106_dip">106px</dimen>
+    <dimen name="dimen_107_dip">107px</dimen>
+    <dimen name="dimen_108_dip">108px</dimen>
+    <dimen name="dimen_109_dip">109px</dimen>
+    <dimen name="dimen_10_dip">10px</dimen>
+    <dimen name="dimen_110_dip">110px</dimen>
+    <dimen name="dimen_111_dip">111px</dimen>
+    <dimen name="dimen_112_dip">112px</dimen>
+    <dimen name="dimen_113_dip">113px</dimen>
+    <dimen name="dimen_114_dip">114px</dimen>
+    <dimen name="dimen_115_dip">115px</dimen>
+    <dimen name="dimen_116_dip">116px</dimen>
+    <dimen name="dimen_117_dip">117px</dimen>
+    <dimen name="dimen_118_dip">118px</dimen>
+    <dimen name="dimen_119_dip">119px</dimen>
+    <dimen name="dimen_11_dip">11px</dimen>
+    <dimen name="dimen_120_dip">120px</dimen>
+    <dimen name="dimen_121_dip">121px</dimen>
+    <dimen name="dimen_122_dip">122px</dimen>
+    <dimen name="dimen_123_dip">123px</dimen>
+    <dimen name="dimen_124_dip">124px</dimen>
+    <dimen name="dimen_125_dip">125px</dimen>
+    <dimen name="dimen_126_dip">126px</dimen>
+    <dimen name="dimen_127_dip">127px</dimen>
+    <dimen name="dimen_128_dip">128px</dimen>
+    <dimen name="dimen_129_dip">129px</dimen>
+    <dimen name="dimen_12_dip">12px</dimen>
+    <dimen name="dimen_130_dip">130px</dimen>
+    <dimen name="dimen_131_dip">131px</dimen>
+    <dimen name="dimen_132_dip">132px</dimen>
+    <dimen name="dimen_133_dip">133px</dimen>
+    <dimen name="dimen_134_dip">134px</dimen>
+    <dimen name="dimen_135_dip">135px</dimen>
+    <dimen name="dimen_136_dip">136px</dimen>
+    <dimen name="dimen_137_dip">137px</dimen>
+    <dimen name="dimen_138_dip">138px</dimen>
+    <dimen name="dimen_139_dip">139px</dimen>
+    <dimen name="dimen_13_dip">13px</dimen>
+    <dimen name="dimen_140_dip">140px</dimen>
+    <dimen name="dimen_141_dip">141px</dimen>
+    <dimen name="dimen_142_dip">142px</dimen>
+    <dimen name="dimen_143_dip">143px</dimen>
+    <dimen name="dimen_144_dip">144px</dimen>
+    <dimen name="dimen_145_dip">145px</dimen>
+    <dimen name="dimen_146_dip">146px</dimen>
+    <dimen name="dimen_147_dip">147px</dimen>
+    <dimen name="dimen_148_dip">148px</dimen>
+    <dimen name="dimen_149_dip">149px</dimen>
+    <dimen name="dimen_14_dip">14px</dimen>
+    <dimen name="dimen_150_dip">150px</dimen>
+    <dimen name="dimen_151_dip">151px</dimen>
+    <dimen name="dimen_152_dip">152px</dimen>
+    <dimen name="dimen_153_dip">153px</dimen>
+    <dimen name="dimen_154_dip">154px</dimen>
+    <dimen name="dimen_155_dip">155px</dimen>
+    <dimen name="dimen_156_dip">156px</dimen>
+    <dimen name="dimen_157_dip">157px</dimen>
+    <dimen name="dimen_158_dip">158px</dimen>
+    <dimen name="dimen_159_dip">159px</dimen>
+    <dimen name="dimen_15_dip">15px</dimen>
+    <dimen name="dimen_160_dip">160px</dimen>
+    <dimen name="dimen_161_dip">161px</dimen>
+    <dimen name="dimen_162_dip">162px</dimen>
+    <dimen name="dimen_163_dip">163px</dimen>
+    <dimen name="dimen_164_dip">164px</dimen>
+    <dimen name="dimen_165_dip">165px</dimen>
+    <dimen name="dimen_166_dip">166px</dimen>
+    <dimen name="dimen_167_dip">167px</dimen>
+    <dimen name="dimen_168_dip">168px</dimen>
+    <dimen name="dimen_169_dip">169px</dimen>
+    <dimen name="dimen_16_dip">16px</dimen>
+    <dimen name="dimen_170_dip">170px</dimen>
+    <dimen name="dimen_171_dip">171px</dimen>
+    <dimen name="dimen_172_dip">172px</dimen>
+    <dimen name="dimen_173_dip">173px</dimen>
+    <dimen name="dimen_174_dip">174px</dimen>
+    <dimen name="dimen_175_dip">175px</dimen>
+    <dimen name="dimen_176_dip">176px</dimen>
+    <dimen name="dimen_177_dip">177px</dimen>
+    <dimen name="dimen_178_dip">178px</dimen>
+    <dimen name="dimen_179_dip">179px</dimen>
+    <dimen name="dimen_17_dip">17px</dimen>
+    <dimen name="dimen_180_dip">180px</dimen>
+    <dimen name="dimen_181_dip">181px</dimen>
+    <dimen name="dimen_182_dip">182px</dimen>
+    <dimen name="dimen_183_dip">183px</dimen>
+    <dimen name="dimen_184_dip">184px</dimen>
+    <dimen name="dimen_185_dip">185px</dimen>
+    <dimen name="dimen_186_dip">186px</dimen>
+    <dimen name="dimen_187_dip">187px</dimen>
+    <dimen name="dimen_188_dip">188px</dimen>
+    <dimen name="dimen_189_dip">189px</dimen>
+    <dimen name="dimen_18_dip">18px</dimen>
+    <dimen name="dimen_190_dip">190px</dimen>
+    <dimen name="dimen_191_dip">191px</dimen>
+    <dimen name="dimen_192_dip">192px</dimen>
+    <dimen name="dimen_193_dip">193px</dimen>
+    <dimen name="dimen_194_dip">194px</dimen>
+    <dimen name="dimen_195_dip">195px</dimen>
+    <dimen name="dimen_196_dip">196px</dimen>
+    <dimen name="dimen_197_dip">197px</dimen>
+    <dimen name="dimen_198_dip">198px</dimen>
+    <dimen name="dimen_199_dip">199px</dimen>
+    <dimen name="dimen_19_dip">19px</dimen>
+    <dimen name="dimen_1_dip">1px</dimen>
+    <dimen name="dimen_200_dip">200px</dimen>
+    <dimen name="dimen_201_dip">201px</dimen>
+    <dimen name="dimen_202_dip">202px</dimen>
+    <dimen name="dimen_203_dip">203px</dimen>
+    <dimen name="dimen_204_dip">204px</dimen>
+    <dimen name="dimen_205_dip">205px</dimen>
+    <dimen name="dimen_206_dip">206px</dimen>
+    <dimen name="dimen_207_dip">207px</dimen>
+    <dimen name="dimen_208_dip">208px</dimen>
+    <dimen name="dimen_209_dip">209px</dimen>
+    <dimen name="dimen_20_dip">20px</dimen>
+    <dimen name="dimen_210_dip">210px</dimen>
+    <dimen name="dimen_211_dip">211px</dimen>
+    <dimen name="dimen_212_dip">212px</dimen>
+    <dimen name="dimen_213_dip">213px</dimen>
+    <dimen name="dimen_214_dip">214px</dimen>
+    <dimen name="dimen_215_dip">215px</dimen>
+    <dimen name="dimen_216_dip">216px</dimen>
+    <dimen name="dimen_217_dip">217px</dimen>
+    <dimen name="dimen_218_dip">218px</dimen>
+    <dimen name="dimen_219_dip">219px</dimen>
+    <dimen name="dimen_21_dip">21px</dimen>
+    <dimen name="dimen_220_dip">220px</dimen>
+    <dimen name="dimen_221_dip">221px</dimen>
+    <dimen name="dimen_222_dip">222px</dimen>
+    <dimen name="dimen_223_dip">223px</dimen>
+    <dimen name="dimen_224_dip">224px</dimen>
+    <dimen name="dimen_225_dip">225px</dimen>
+    <dimen name="dimen_226_dip">226px</dimen>
+    <dimen name="dimen_227_dip">227px</dimen>
+    <dimen name="dimen_228_dip">228px</dimen>
+    <dimen name="dimen_229_dip">229px</dimen>
+    <dimen name="dimen_22_dip">22px</dimen>
+    <dimen name="dimen_230_dip">230px</dimen>
+    <dimen name="dimen_231_dip">231px</dimen>
+    <dimen name="dimen_232_dip">232px</dimen>
+    <dimen name="dimen_233_dip">233px</dimen>
+    <dimen name="dimen_234_dip">234px</dimen>
+    <dimen name="dimen_235_dip">235px</dimen>
+    <dimen name="dimen_236_dip">236px</dimen>
+    <dimen name="dimen_237_dip">237px</dimen>
+    <dimen name="dimen_238_dip">238px</dimen>
+    <dimen name="dimen_239_dip">239px</dimen>
+    <dimen name="dimen_23_dip">23px</dimen>
+    <dimen name="dimen_240_dip">240px</dimen>
+    <dimen name="dimen_241_dip">241px</dimen>
+    <dimen name="dimen_242_dip">242px</dimen>
+    <dimen name="dimen_243_dip">243px</dimen>
+    <dimen name="dimen_244_dip">244px</dimen>
+    <dimen name="dimen_245_dip">245px</dimen>
+    <dimen name="dimen_246_dip">246px</dimen>
+    <dimen name="dimen_247_dip">247px</dimen>
+    <dimen name="dimen_248_dip">248px</dimen>
+    <dimen name="dimen_249_dip">249px</dimen>
+    <dimen name="dimen_24_dip">24px</dimen>
+    <dimen name="dimen_250_dip">250px</dimen>
+    <dimen name="dimen_251_dip">251px</dimen>
+    <dimen name="dimen_252_dip">252px</dimen>
+    <dimen name="dimen_253_dip">253px</dimen>
+    <dimen name="dimen_254_dip">254px</dimen>
+    <dimen name="dimen_255_dip">255px</dimen>
+    <dimen name="dimen_256_dip">256px</dimen>
+    <dimen name="dimen_257_dip">257px</dimen>
+    <dimen name="dimen_258_dip">258px</dimen>
+    <dimen name="dimen_259_dip">259px</dimen>
+    <dimen name="dimen_25_dip">25px</dimen>
+    <dimen name="dimen_260_dip">260px</dimen>
+    <dimen name="dimen_261_dip">261px</dimen>
+    <dimen name="dimen_262_dip">262px</dimen>
+    <dimen name="dimen_263_dip">263px</dimen>
+    <dimen name="dimen_264_dip">264px</dimen>
+    <dimen name="dimen_265_dip">265px</dimen>
+    <dimen name="dimen_266_dip">266px</dimen>
+    <dimen name="dimen_267_dip">267px</dimen>
+    <dimen name="dimen_268_dip">268px</dimen>
+    <dimen name="dimen_269_dip">269px</dimen>
+    <dimen name="dimen_26_dip">26px</dimen>
+    <dimen name="dimen_270_dip">270px</dimen>
+    <dimen name="dimen_271_dip">271px</dimen>
+    <dimen name="dimen_272_dip">272px</dimen>
+    <dimen name="dimen_273_dip">273px</dimen>
+    <dimen name="dimen_274_dip">274px</dimen>
+    <dimen name="dimen_275_dip">275px</dimen>
+    <dimen name="dimen_276_dip">276px</dimen>
+    <dimen name="dimen_277_dip">277px</dimen>
+    <dimen name="dimen_278_dip">278px</dimen>
+    <dimen name="dimen_279_dip">279px</dimen>
+    <dimen name="dimen_27_dip">27px</dimen>
+    <dimen name="dimen_280_dip">280px</dimen>
+    <dimen name="dimen_281_dip">281px</dimen>
+    <dimen name="dimen_282_dip">282px</dimen>
+    <dimen name="dimen_283_dip">283px</dimen>
+    <dimen name="dimen_284_dip">284px</dimen>
+    <dimen name="dimen_285_dip">285px</dimen>
+    <dimen name="dimen_286_dip">286px</dimen>
+    <dimen name="dimen_287_dip">287px</dimen>
+    <dimen name="dimen_288_dip">288px</dimen>
+    <dimen name="dimen_289_dip">289px</dimen>
+    <dimen name="dimen_28_dip">28px</dimen>
+    <dimen name="dimen_290_dip">290px</dimen>
+    <dimen name="dimen_291_dip">291px</dimen>
+    <dimen name="dimen_292_dip">292px</dimen>
+    <dimen name="dimen_293_dip">293px</dimen>
+    <dimen name="dimen_294_dip">294px</dimen>
+    <dimen name="dimen_295_dip">295px</dimen>
+    <dimen name="dimen_296_dip">296px</dimen>
+    <dimen name="dimen_297_dip">297px</dimen>
+    <dimen name="dimen_298_dip">298px</dimen>
+    <dimen name="dimen_299_dip">299px</dimen>
+    <dimen name="dimen_29_dip">29px</dimen>
+    <dimen name="dimen_2_dip">2px</dimen>
+    <dimen name="dimen_300_dip">300px</dimen>
+    <dimen name="dimen_301_dip">301px</dimen>
+    <dimen name="dimen_302_dip">302px</dimen>
+    <dimen name="dimen_303_dip">303px</dimen>
+    <dimen name="dimen_304_dip">304px</dimen>
+    <dimen name="dimen_305_dip">305px</dimen>
+    <dimen name="dimen_306_dip">306px</dimen>
+    <dimen name="dimen_307_dip">307px</dimen>
+    <dimen name="dimen_308_dip">308px</dimen>
+    <dimen name="dimen_309_dip">309px</dimen>
+    <dimen name="dimen_30_dip">30px</dimen>
+    <dimen name="dimen_310_dip">310px</dimen>
+    <dimen name="dimen_311_dip">311px</dimen>
+    <dimen name="dimen_312_dip">312px</dimen>
+    <dimen name="dimen_313_dip">313px</dimen>
+    <dimen name="dimen_314_dip">314px</dimen>
+    <dimen name="dimen_315_dip">315px</dimen>
+    <dimen name="dimen_316_dip">316px</dimen>
+    <dimen name="dimen_317_dip">317px</dimen>
+    <dimen name="dimen_318_dip">318px</dimen>
+    <dimen name="dimen_319_dip">319px</dimen>
+    <dimen name="dimen_31_dip">31px</dimen>
+    <dimen name="dimen_320_dip">320px</dimen>
+    <dimen name="dimen_321_dip">321px</dimen>
+    <dimen name="dimen_322_dip">322px</dimen>
+    <dimen name="dimen_323_dip">323px</dimen>
+    <dimen name="dimen_324_dip">324px</dimen>
+    <dimen name="dimen_325_dip">325px</dimen>
+    <dimen name="dimen_326_dip">326px</dimen>
+    <dimen name="dimen_327_dip">327px</dimen>
+    <dimen name="dimen_328_dip">328px</dimen>
+    <dimen name="dimen_329_dip">329px</dimen>
+    <dimen name="dimen_32_dip">32px</dimen>
+    <dimen name="dimen_330_dip">330px</dimen>
+    <dimen name="dimen_331_dip">331px</dimen>
+    <dimen name="dimen_332_dip">332px</dimen>
+    <dimen name="dimen_333_dip">333px</dimen>
+    <dimen name="dimen_334_dip">334px</dimen>
+    <dimen name="dimen_335_dip">335px</dimen>
+    <dimen name="dimen_336_dip">336px</dimen>
+    <dimen name="dimen_337_dip">337px</dimen>
+    <dimen name="dimen_338_dip">338px</dimen>
+    <dimen name="dimen_339_dip">339px</dimen>
+    <dimen name="dimen_33_dip">33px</dimen>
+    <dimen name="dimen_340_dip">340px</dimen>
+    <dimen name="dimen_341_dip">341px</dimen>
+    <dimen name="dimen_342_dip">342px</dimen>
+    <dimen name="dimen_343_dip">343px</dimen>
+    <dimen name="dimen_344_dip">344px</dimen>
+    <dimen name="dimen_345_dip">345px</dimen>
+    <dimen name="dimen_346_dip">346px</dimen>
+    <dimen name="dimen_347_dip">347px</dimen>
+    <dimen name="dimen_348_dip">348px</dimen>
+    <dimen name="dimen_349_dip">349px</dimen>
+    <dimen name="dimen_34_dip">34px</dimen>
+    <dimen name="dimen_350_dip">350px</dimen>
+    <dimen name="dimen_351_dip">351px</dimen>
+    <dimen name="dimen_352_dip">352px</dimen>
+    <dimen name="dimen_353_dip">353px</dimen>
+    <dimen name="dimen_354_dip">354px</dimen>
+    <dimen name="dimen_355_dip">355px</dimen>
+    <dimen name="dimen_356_dip">356px</dimen>
+    <dimen name="dimen_357_dip">357px</dimen>
+    <dimen name="dimen_358_dip">358px</dimen>
+    <dimen name="dimen_359_dip">359px</dimen>
+    <dimen name="dimen_35_dip">35px</dimen>
+    <dimen name="dimen_360_dip">360px</dimen>
+    <dimen name="dimen_361_dip">361px</dimen>
+    <dimen name="dimen_362_dip">362px</dimen>
+    <dimen name="dimen_363_dip">363px</dimen>
+    <dimen name="dimen_364_dip">364px</dimen>
+    <dimen name="dimen_365_dip">365px</dimen>
+    <dimen name="dimen_366_dip">366px</dimen>
+    <dimen name="dimen_367_dip">367px</dimen>
+    <dimen name="dimen_368_dip">368px</dimen>
+    <dimen name="dimen_369_dip">369px</dimen>
+    <dimen name="dimen_36_dip">36px</dimen>
+    <dimen name="dimen_370_dip">370px</dimen>
+    <dimen name="dimen_371_dip">371px</dimen>
+    <dimen name="dimen_372_dip">372px</dimen>
+    <dimen name="dimen_373_dip">373px</dimen>
+    <dimen name="dimen_374_dip">374px</dimen>
+    <dimen name="dimen_375_dip">375px</dimen>
+    <dimen name="dimen_376_dip">376px</dimen>
+    <dimen name="dimen_377_dip">377px</dimen>
+    <dimen name="dimen_378_dip">378px</dimen>
+    <dimen name="dimen_379_dip">379px</dimen>
+    <dimen name="dimen_37_dip">37px</dimen>
+    <dimen name="dimen_380_dip">380px</dimen>
+    <dimen name="dimen_381_dip">381px</dimen>
+    <dimen name="dimen_382_dip">382px</dimen>
+    <dimen name="dimen_383_dip">383px</dimen>
+    <dimen name="dimen_384_dip">384px</dimen>
+    <dimen name="dimen_385_dip">385px</dimen>
+    <dimen name="dimen_386_dip">386px</dimen>
+    <dimen name="dimen_387_dip">387px</dimen>
+    <dimen name="dimen_388_dip">388px</dimen>
+    <dimen name="dimen_389_dip">389px</dimen>
+    <dimen name="dimen_38_dip">38px</dimen>
+    <dimen name="dimen_390_dip">390px</dimen>
+    <dimen name="dimen_391_dip">391px</dimen>
+    <dimen name="dimen_392_dip">392px</dimen>
+    <dimen name="dimen_393_dip">393px</dimen>
+    <dimen name="dimen_394_dip">394px</dimen>
+    <dimen name="dimen_395_dip">395px</dimen>
+    <dimen name="dimen_396_dip">396px</dimen>
+    <dimen name="dimen_397_dip">397px</dimen>
+    <dimen name="dimen_398_dip">398px</dimen>
+    <dimen name="dimen_399_dip">399px</dimen>
+    <dimen name="dimen_39_dip">39px</dimen>
+    <dimen name="dimen_3_dip">3px</dimen>
+    <dimen name="dimen_400_dip">400px</dimen>
+    <dimen name="dimen_401_dip">401px</dimen>
+    <dimen name="dimen_402_dip">402px</dimen>
+    <dimen name="dimen_403_dip">403px</dimen>
+    <dimen name="dimen_404_dip">404px</dimen>
+    <dimen name="dimen_405_dip">405px</dimen>
+    <dimen name="dimen_406_dip">406px</dimen>
+    <dimen name="dimen_407_dip">407px</dimen>
+    <dimen name="dimen_408_dip">408px</dimen>
+    <dimen name="dimen_409_dip">409px</dimen>
+    <dimen name="dimen_40_dip">40px</dimen>
+    <dimen name="dimen_410_dip">410px</dimen>
+    <dimen name="dimen_411_dip">411px</dimen>
+    <dimen name="dimen_412_dip">412px</dimen>
+    <dimen name="dimen_413_dip">413px</dimen>
+    <dimen name="dimen_414_dip">414px</dimen>
+    <dimen name="dimen_415_dip">415px</dimen>
+    <dimen name="dimen_416_dip">416px</dimen>
+    <dimen name="dimen_417_dip">417px</dimen>
+    <dimen name="dimen_418_dip">418px</dimen>
+    <dimen name="dimen_419_dip">419px</dimen>
+    <dimen name="dimen_41_dip">41px</dimen>
+    <dimen name="dimen_420_dip">420px</dimen>
+    <dimen name="dimen_421_dip">421px</dimen>
+    <dimen name="dimen_422_dip">422px</dimen>
+    <dimen name="dimen_423_dip">423px</dimen>
+    <dimen name="dimen_424_dip">424px</dimen>
+    <dimen name="dimen_425_dip">425px</dimen>
+    <dimen name="dimen_426_dip">426px</dimen>
+    <dimen name="dimen_427_dip">427px</dimen>
+    <dimen name="dimen_428_dip">428px</dimen>
+    <dimen name="dimen_429_dip">429px</dimen>
+    <dimen name="dimen_42_dip">42px</dimen>
+    <dimen name="dimen_430_dip">430px</dimen>
+    <dimen name="dimen_431_dip">431px</dimen>
+    <dimen name="dimen_432_dip">432px</dimen>
+    <dimen name="dimen_433_dip">433px</dimen>
+    <dimen name="dimen_434_dip">434px</dimen>
+    <dimen name="dimen_435_dip">435px</dimen>
+    <dimen name="dimen_436_dip">436px</dimen>
+    <dimen name="dimen_437_dip">437px</dimen>
+    <dimen name="dimen_438_dip">438px</dimen>
+    <dimen name="dimen_439_dip">439px</dimen>
+    <dimen name="dimen_43_dip">43px</dimen>
+    <dimen name="dimen_440_dip">440px</dimen>
+    <dimen name="dimen_441_dip">441px</dimen>
+    <dimen name="dimen_442_dip">442px</dimen>
+    <dimen name="dimen_443_dip">443px</dimen>
+    <dimen name="dimen_444_dip">444px</dimen>
+    <dimen name="dimen_445_dip">445px</dimen>
+    <dimen name="dimen_446_dip">446px</dimen>
+    <dimen name="dimen_447_dip">447px</dimen>
+    <dimen name="dimen_448_dip">448px</dimen>
+    <dimen name="dimen_449_dip">449px</dimen>
+    <dimen name="dimen_44_dip">44px</dimen>
+    <dimen name="dimen_450_dip">450px</dimen>
+    <dimen name="dimen_451_dip">451px</dimen>
+    <dimen name="dimen_452_dip">452px</dimen>
+    <dimen name="dimen_453_dip">453px</dimen>
+    <dimen name="dimen_454_dip">454px</dimen>
+    <dimen name="dimen_455_dip">455px</dimen>
+    <dimen name="dimen_456_dip">456px</dimen>
+    <dimen name="dimen_457_dip">457px</dimen>
+    <dimen name="dimen_458_dip">458px</dimen>
+    <dimen name="dimen_459_dip">459px</dimen>
+    <dimen name="dimen_45_dip">45px</dimen>
+    <dimen name="dimen_460_dip">460px</dimen>
+    <dimen name="dimen_461_dip">461px</dimen>
+    <dimen name="dimen_462_dip">462px</dimen>
+    <dimen name="dimen_463_dip">463px</dimen>
+    <dimen name="dimen_464_dip">464px</dimen>
+    <dimen name="dimen_465_dip">465px</dimen>
+    <dimen name="dimen_466_dip">466px</dimen>
+    <dimen name="dimen_467_dip">467px</dimen>
+    <dimen name="dimen_468_dip">468px</dimen>
+    <dimen name="dimen_469_dip">469px</dimen>
+    <dimen name="dimen_46_dip">46px</dimen>
+    <dimen name="dimen_470_dip">470px</dimen>
+    <dimen name="dimen_471_dip">471px</dimen>
+    <dimen name="dimen_472_dip">472px</dimen>
+    <dimen name="dimen_473_dip">473px</dimen>
+    <dimen name="dimen_474_dip">474px</dimen>
+    <dimen name="dimen_475_dip">475px</dimen>
+    <dimen name="dimen_476_dip">476px</dimen>
+    <dimen name="dimen_477_dip">477px</dimen>
+    <dimen name="dimen_478_dip">478px</dimen>
+    <dimen name="dimen_479_dip">479px</dimen>
+    <dimen name="dimen_47_dip">47px</dimen>
+    <dimen name="dimen_480_dip">480px</dimen>
+    <dimen name="dimen_481_dip">481px</dimen>
+    <dimen name="dimen_482_dip">482px</dimen>
+    <dimen name="dimen_483_dip">483px</dimen>
+    <dimen name="dimen_484_dip">484px</dimen>
+    <dimen name="dimen_485_dip">485px</dimen>
+    <dimen name="dimen_486_dip">486px</dimen>
+    <dimen name="dimen_487_dip">487px</dimen>
+    <dimen name="dimen_488_dip">488px</dimen>
+    <dimen name="dimen_489_dip">489px</dimen>
+    <dimen name="dimen_48_dip">48px</dimen>
+    <dimen name="dimen_490_dip">490px</dimen>
+    <dimen name="dimen_491_dip">491px</dimen>
+    <dimen name="dimen_492_dip">492px</dimen>
+    <dimen name="dimen_493_dip">493px</dimen>
+    <dimen name="dimen_494_dip">494px</dimen>
+    <dimen name="dimen_495_dip">495px</dimen>
+    <dimen name="dimen_496_dip">496px</dimen>
+    <dimen name="dimen_497_dip">497px</dimen>
+    <dimen name="dimen_498_dip">498px</dimen>
+    <dimen name="dimen_499_dip">499px</dimen>
+    <dimen name="dimen_49_dip">49px</dimen>
+    <dimen name="dimen_4_dip">4px</dimen>
+    <dimen name="dimen_500_dip">500px</dimen>
+    <dimen name="dimen_501_dip">501px</dimen>
+    <dimen name="dimen_502_dip">502px</dimen>
+    <dimen name="dimen_503_dip">503px</dimen>
+    <dimen name="dimen_504_dip">504px</dimen>
+    <dimen name="dimen_505_dip">505px</dimen>
+    <dimen name="dimen_506_dip">506px</dimen>
+    <dimen name="dimen_507_dip">507px</dimen>
+    <dimen name="dimen_508_dip">508px</dimen>
+    <dimen name="dimen_509_dip">509px</dimen>
+    <dimen name="dimen_50_dip">50px</dimen>
+    <dimen name="dimen_510_dip">510px</dimen>
+    <dimen name="dimen_511_dip">511px</dimen>
+    <dimen name="dimen_512_dip">512px</dimen>
+    <dimen name="dimen_513_dip">513px</dimen>
+    <dimen name="dimen_514_dip">514px</dimen>
+    <dimen name="dimen_515_dip">515px</dimen>
+    <dimen name="dimen_516_dip">516px</dimen>
+    <dimen name="dimen_517_dip">517px</dimen>
+    <dimen name="dimen_518_dip">518px</dimen>
+    <dimen name="dimen_519_dip">519px</dimen>
+    <dimen name="dimen_51_dip">51px</dimen>
+    <dimen name="dimen_520_dip">520px</dimen>
+    <dimen name="dimen_521_dip">521px</dimen>
+    <dimen name="dimen_522_dip">522px</dimen>
+    <dimen name="dimen_523_dip">523px</dimen>
+    <dimen name="dimen_524_dip">524px</dimen>
+    <dimen name="dimen_525_dip">525px</dimen>
+    <dimen name="dimen_526_dip">526px</dimen>
+    <dimen name="dimen_527_dip">527px</dimen>
+    <dimen name="dimen_528_dip">528px</dimen>
+    <dimen name="dimen_529_dip">529px</dimen>
+    <dimen name="dimen_52_dip">52px</dimen>
+    <dimen name="dimen_530_dip">530px</dimen>
+    <dimen name="dimen_531_dip">531px</dimen>
+    <dimen name="dimen_532_dip">532px</dimen>
+    <dimen name="dimen_533_dip">533px</dimen>
+    <dimen name="dimen_534_dip">534px</dimen>
+    <dimen name="dimen_535_dip">535px</dimen>
+    <dimen name="dimen_536_dip">536px</dimen>
+    <dimen name="dimen_537_dip">537px</dimen>
+    <dimen name="dimen_538_dip">538px</dimen>
+    <dimen name="dimen_539_dip">539px</dimen>
+    <dimen name="dimen_53_dip">53px</dimen>
+    <dimen name="dimen_540_dip">540px</dimen>
+    <dimen name="dimen_541_dip">541px</dimen>
+    <dimen name="dimen_542_dip">542px</dimen>
+    <dimen name="dimen_543_dip">543px</dimen>
+    <dimen name="dimen_544_dip">544px</dimen>
+    <dimen name="dimen_545_dip">545px</dimen>
+    <dimen name="dimen_546_dip">546px</dimen>
+    <dimen name="dimen_547_dip">547px</dimen>
+    <dimen name="dimen_548_dip">548px</dimen>
+    <dimen name="dimen_549_dip">549px</dimen>
+    <dimen name="dimen_54_dip">54px</dimen>
+    <dimen name="dimen_550_dip">550px</dimen>
+    <dimen name="dimen_551_dip">551px</dimen>
+    <dimen name="dimen_552_dip">552px</dimen>
+    <dimen name="dimen_553_dip">553px</dimen>
+    <dimen name="dimen_554_dip">554px</dimen>
+    <dimen name="dimen_555_dip">555px</dimen>
+    <dimen name="dimen_556_dip">556px</dimen>
+    <dimen name="dimen_557_dip">557px</dimen>
+    <dimen name="dimen_558_dip">558px</dimen>
+    <dimen name="dimen_559_dip">559px</dimen>
+    <dimen name="dimen_55_dip">55px</dimen>
+    <dimen name="dimen_560_dip">560px</dimen>
+    <dimen name="dimen_561_dip">561px</dimen>
+    <dimen name="dimen_562_dip">562px</dimen>
+    <dimen name="dimen_563_dip">563px</dimen>
+    <dimen name="dimen_564_dip">564px</dimen>
+    <dimen name="dimen_565_dip">565px</dimen>
+    <dimen name="dimen_566_dip">566px</dimen>
+    <dimen name="dimen_567_dip">567px</dimen>
+    <dimen name="dimen_568_dip">568px</dimen>
+    <dimen name="dimen_569_dip">569px</dimen>
+    <dimen name="dimen_56_dip">56px</dimen>
+    <dimen name="dimen_570_dip">570px</dimen>
+    <dimen name="dimen_571_dip">571px</dimen>
+    <dimen name="dimen_572_dip">572px</dimen>
+    <dimen name="dimen_573_dip">573px</dimen>
+    <dimen name="dimen_574_dip">574px</dimen>
+    <dimen name="dimen_575_dip">575px</dimen>
+    <dimen name="dimen_576_dip">576px</dimen>
+    <dimen name="dimen_577_dip">577px</dimen>
+    <dimen name="dimen_578_dip">578px</dimen>
+    <dimen name="dimen_579_dip">579px</dimen>
+    <dimen name="dimen_57_dip">57px</dimen>
+    <dimen name="dimen_580_dip">580px</dimen>
+    <dimen name="dimen_581_dip">581px</dimen>
+    <dimen name="dimen_582_dip">582px</dimen>
+    <dimen name="dimen_583_dip">583px</dimen>
+    <dimen name="dimen_584_dip">584px</dimen>
+    <dimen name="dimen_585_dip">585px</dimen>
+    <dimen name="dimen_586_dip">586px</dimen>
+    <dimen name="dimen_587_dip">587px</dimen>
+    <dimen name="dimen_588_dip">588px</dimen>
+    <dimen name="dimen_589_dip">589px</dimen>
+    <dimen name="dimen_58_dip">58px</dimen>
+    <dimen name="dimen_590_dip">590px</dimen>
+    <dimen name="dimen_591_dip">591px</dimen>
+    <dimen name="dimen_592_dip">592px</dimen>
+    <dimen name="dimen_593_dip">593px</dimen>
+    <dimen name="dimen_594_dip">594px</dimen>
+    <dimen name="dimen_595_dip">595px</dimen>
+    <dimen name="dimen_596_dip">596px</dimen>
+    <dimen name="dimen_597_dip">597px</dimen>
+    <dimen name="dimen_598_dip">598px</dimen>
+    <dimen name="dimen_599_dip">599px</dimen>
+    <dimen name="dimen_59_dip">59px</dimen>
+    <dimen name="dimen_5_dip">5px</dimen>
+    <dimen name="dimen_60_dip">60px</dimen>
+    <dimen name="dimen_61_dip">61px</dimen>
+    <dimen name="dimen_62_dip">62px</dimen>
+    <dimen name="dimen_63_dip">63px</dimen>
+    <dimen name="dimen_64_dip">64px</dimen>
+    <dimen name="dimen_65_dip">65px</dimen>
+    <dimen name="dimen_66_dip">66px</dimen>
+    <dimen name="dimen_67_dip">67px</dimen>
+    <dimen name="dimen_68_dip">68px</dimen>
+    <dimen name="dimen_69_dip">69px</dimen>
+    <dimen name="dimen_6_dip">6px</dimen>
+    <dimen name="dimen_70_dip">70px</dimen>
+    <dimen name="dimen_71_dip">71px</dimen>
+    <dimen name="dimen_72_dip">72px</dimen>
+    <dimen name="dimen_73_dip">73px</dimen>
+    <dimen name="dimen_74_dip">74px</dimen>
+    <dimen name="dimen_75_dip">75px</dimen>
+    <dimen name="dimen_76_dip">76px</dimen>
+    <dimen name="dimen_77_dip">77px</dimen>
+    <dimen name="dimen_78_dip">78px</dimen>
+    <dimen name="dimen_79_dip">79px</dimen>
+    <dimen name="dimen_7_dip">7px</dimen>
+    <dimen name="dimen_80_dip">80px</dimen>
+    <dimen name="dimen_81_dip">81px</dimen>
+    <dimen name="dimen_82_dip">82px</dimen>
+    <dimen name="dimen_83_dip">83px</dimen>
+    <dimen name="dimen_84_dip">84px</dimen>
+    <dimen name="dimen_85_dip">85px</dimen>
+    <dimen name="dimen_86_dip">86px</dimen>
+    <dimen name="dimen_87_dip">87px</dimen>
+    <dimen name="dimen_88_dip">88px</dimen>
+    <dimen name="dimen_89_dip">89px</dimen>
+    <dimen name="dimen_8_dip">8px</dimen>
+    <dimen name="dimen_90_dip">90px</dimen>
+    <dimen name="dimen_91_dip">91px</dimen>
+    <dimen name="dimen_92_dip">92px</dimen>
+    <dimen name="dimen_93_dip">93px</dimen>
+    <dimen name="dimen_94_dip">94px</dimen>
+    <dimen name="dimen_95_dip">95px</dimen>
+    <dimen name="dimen_96_dip">96px</dimen>
+    <dimen name="dimen_97_dip">97px</dimen>
+    <dimen name="dimen_98_dip">98px</dimen>
+    <dimen name="dimen_99_dip">99px</dimen>
+    <dimen name="dimen_9_dip">9px</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <item name="auto_focus" type="id"/>
+    <item name="click_remove" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="drag_handle" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="viewpager" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="account">用户</string>
+    <string name="account_">用户：</string>
+    <string name="accumulative_total_">累计:</string>
+    <string name="api_request_error">网络请求异常，请稍后再试</string>
+    <string name="app_name">云端SMS</string>
+    <string name="app_name_zh">学思堆垛管理系统</string>
+    <string name="articlesBeingProcessed">在制品</string>
+    <string name="artsBeingProLossRate">在制品报废率</string>
+    <string name="assemblyid_">分段编码: </string>
+    <string name="back">后退</string>
+    <string name="barcode">条形码</string>
+    <string name="barcodeBinding">条码绑定</string>
+    <string name="barcode_">条形码:</string>
+    <string name="barcode_name_assosiation">EPR关联</string>
+    <string name="barcode_name_batch">炉批号</string>
+    <string name="barcode_name_classfication">船级社</string>
+    <string name="barcode_name_data1">数据1</string>
+    <string name="barcode_name_data2">数据2</string>
+    <string name="barcode_name_length">长(*)</string>
+    <string name="barcode_name_materialcode">物料编码(*)</string>
+    <string name="barcode_name_project">工程号</string>
+    <string name="barcode_name_section">部套号</string>
+    <string name="barcode_name_width">宽(*)</string>
+    <string name="barcode_whole_board">整板</string>
+    <string name="batch_id_">炉批号:</string>
+    <string name="bill_name">单号名称：</string>
+    <string name="bill_search">采购单查询</string>
+    <string name="billno_already_selected">已选择：</string>
+    <string name="billno_bind">采购单号绑定</string>
+    <string name="cancel">取消</string>
+    <string name="checkoutid">提检号</string>
+    <string name="checkoutid_">提检号:</string>
+    <string name="clean">清除</string>
+    <string name="clean_check">清除盘点</string>
+    <string name="clean_local_data">清除缓存</string>
+    <string name="comfirm_exchange_project">确定交换工程？</string>
+    <string name="comp_">公司：</string>
+    <string name="configure_list_fields">配置列表字段</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_bind">确认绑定</string>
+    <string name="contactUs">关于我们</string>
+    <string name="contact_cropation">南京学思信息技术有限责任公司</string>
+    <string name="contact_email_text">sales@xuesi.cn</string>
+    <string name="contact_info_title">公司简介</string>
+    <string name="contact_infot_text">南京学思信息技术有限责任公司成立于2004年3月，多年来一如既往地专注于数字制造领域，一直是引领制造业数控加工技术潮流的风向标。是一家制造业信息化领域的高科技公司，同时也是是江苏省信息产业厅认定的软件企业。公司拥有一支专业化的研发、实施与服务队伍，成立有营销部、自动下料技术研究院、技术开发部、客户服务部、行政部等。骨干员工均有数字制造业领域的工作经历，拥有丰富的数字制造系统规划、部署、实施与服务的经验。为用户提供全面的自动套料及下料管理解决方案是南京学思矢志不渝的追求。</string>
+    <string name="contact_name">公司名称</string>
+    <string name="contact_tel_text">025-5221 8768</string>
+    <string name="contact_tel_title">联系电话</string>
+    <string name="coyperight">©版权所有:南京学思信息技术有限责任公司</string>
+    <string name="crane_order">行车命令</string>
+    <string name="crane_panel">行车面板</string>
+    <string name="crane_work_code">流水码</string>
+    <string name="crane_work_finish">完成</string>
+    <string name="crane_work_list">作业列表</string>
+    <string name="crane_work_panel">行车作业面板</string>
+    <string name="crane_work_panel_author">创建人</string>
+    <string name="crane_work_panel_from">FROM</string>
+    <string name="crane_work_panel_single_weight">单重</string>
+    <string name="crane_work_panel_spec">物质规格</string>
+    <string name="crane_work_panel_to">TO</string>
+    <string name="create_time">创建时间</string>
+    <string name="date">日期</string>
+    <string name="date_">日期：</string>
+    <string name="date_range">时间范围：</string>
+    <string name="day">天</string>
+    <string name="detail_info">详情</string>
+    <string name="earlist_storage_time">最早入库时间:</string>
+    <string name="email">邮箱</string>
+    <string name="exit">退出</string>
+    <string name="fastest">最短路径</string>
+    <string name="fillin_msg_bind">填写信息绑定</string>
+    <string name="finish_check">完成盘点</string>
+    <string name="fsk_inputno">采购单号</string>
+    <string name="go">GO</string>
+    <string name="height_">高度:</string>
+    <string name="host">IP地址: </string>
+    <string name="incisionNum">切割废料量</string>
+    <string name="increase">新增</string>
+    <string name="info_query_result_total">共涉及:</string>
+    <string name="infoquery">信息查询</string>
+    <string name="input">入库</string>
+    <string name="input_normal">扫描条码</string>
+    <string name="install_sdcard">please install sdcard!</string>
+    <string name="intime_">入库时间: </string>
+    <string name="inventory">库存</string>
+    <string name="ipset">IP设置</string>
+    <string name="isRem">板材类型</string>
+    <string name="item_delete">删除</string>
+    <string name="layer">层号</string>
+    <string name="layer_">层号: </string>
+    <string name="length">长度</string>
+    <string name="length_">长度: </string>
+    <string name="length_width_">长度*宽度: </string>
+    <string name="loaf">个</string>
+    <string name="loaf_stock">个垛位</string>
+    <string name="loaf_storehouse">个仓库</string>
+    <string name="making_count">在制品件数</string>
+    <string name="making_weight">在制品重量</string>
+    <string name="margin_count">余料张数</string>
+    <string name="margin_weight">余料重量</string>
+    <string name="material">材质</string>
+    <string name="material_">材质: </string>
+    <string name="material_id">物料编号: </string>
+    <string name="material_name">物料名称: </string>
+    <string name="material_thickness_">材质*厚度: </string>
+    <string name="materialcode_hint">物料编码(*):材质*厚</string>
+    <string name="maxheight">最高高度:</string>
+    <string name="meter">米</string>
+    <string name="millimeter">毫米</string>
+    <string name="month">月</string>
+    <string name="msg_check_update">正在检查更新</string>
+    <string name="msg_connect_internet">请连接网络</string>
+    <string name="msg_crane_exit">有未完成作业，确定退出</string>
+    <string name="msg_crane_finish">是否确定完成该作业</string>
+    <string name="msg_crane_nowork">当前没有作业任务</string>
+    <string name="msg_create_crane">请创建行车</string>
+    <string name="msg_createstack">请创建垛位</string>
+    <string name="msg_createstore">请创建仓库和垛位</string>
+    <string name="msg_downloding">正在下载</string>
+    <string name="msg_input_exit">退出后将重新扫描条形码，是否退出</string>
+    <string name="msg_loading_txt">加载数据···</string>
+    <string name="msg_logining">正在登录···</string>
+    <string name="msg_no_recommend">没有符合条件的垛位</string>
+    <string name="msg_not_code">未扫描到条形码!</string>
+    <string name="msg_open_serialport_fail">打开超高频失败!</string>
+    <string name="msg_selecte_crane">请选择行车</string>
+    <string name="msg_startlauncher">您当前使用的是体验版软件，供您任性使用，下次登录时，我们将重置数据。\n欢迎大家广提需求，我们会将您的需求加入到下一个正式版本中推出。\n广告很短，马上回来。</string>
+    <string name="msg_test_reminder">欢迎使用体验版，体验版仅供初学者熟悉软件，我们已为您备好体验数据，供您任性使用，您也可以录入数据，但体验版数据仅保留至当日24点，过时将对数据进行重置，确认切换？</string>
+    <string name="msg_version_error">检查版本失败</string>
+    <string name="msg_version_failure">已是最新版本</string>
+    <string name="msg_version_success">当前有新版本，请更新</string>
+    <string name="newbarcode_">新条形码:</string>
+    <string name="no_date">没有数据！</string>
+    <string name="no_query_data">没有符合查询条件的数据!</string>
+    <string name="oldbarcode_">原条形码:</string>
+    <string name="open_new_request">此功能需结合学思集中下料管理系统XSuperMES使用，如果需求，请联系学思客服025-52218768。</string>
+    <string name="original_password">当前密码: </string>
+    <string name="output">出库</string>
+    <string name="piece">件</string>
+    <string name="planProgressCondition">计划进展情况(件)</string>
+    <string name="pleaseSelectStock">请选择仓库</string>
+    <string name="please_out_stock">特请出库</string>
+    <string name="port">端     口: </string>
+    <string name="pressurizedDepot">二级库</string>
+    <string name="product_count_">零件数量:</string>
+    <string name="project_">工程:</string>
+    <string name="projectid">工程号</string>
+    <string name="projectid_">工程号: </string>
+    <string name="prompt">提示</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="putdate_form">YYYY-MM-DD</string>
+    <string name="quantity">数量</string>
+    <string name="quantity_">数量: </string>
+    <string name="query">查\t询</string>
+    <string name="query_info">查询信息</string>
+    <string name="query_ok_steel_">符合查询条件的钢板个数:</string>
+    <string name="query_steel">查询钢板</string>
+    <string name="rck_remaining">余料列表</string>
+    <string name="real_count">正式版</string>
+    <string name="reality_sheet">实际钢板</string>
+    <string name="release_bill_no">发布单号</string>
+    <string name="remain_barcode_title">余料绑定信息</string>
+    <string name="remain_name">余料名称</string>
+    <string name="remaining">余料库</string>
+    <string name="remarks">备注</string>
+    <string name="remarks_">备注:</string>
+    <string name="remember_psw">记住密码</string>
+    <string name="remnant">余料</string>
+    <string name="remnant_detail">余料明细</string>
+    <string name="replace_barcode">更换条码</string>
+    <string name="reset">重置</string>
+    <string name="scan">录入</string>
+    <string name="section_">分段:</string>
+    <string name="selctStoreType">仓库类型</string>
+    <string name="select_barcodebind_way">请选择绑定方式</string>
+    <string name="select_billno_tv">选择单号</string>
+    <string name="select_grantorder">请选择发料单号</string>
+    <string name="select_input_no">请选择采购单号</string>
+    <string name="select_input_type">请选择入库方式</string>
+    <string name="select_piece_of_steel_plate">请选择第一张钢板!</string>
+    <string name="select_sheet_warning">此钢板与上一张钢板的规格不一致</string>
+    <string name="select_steel_in_up_and_down_the_order">请按顺序选择钢板</string>
+    <string name="sequence">先进先出</string>
+    <string name="serial_number">序号</string>
+    <string name="setting">设置</string>
+    <string name="setting_bluetooth">蓝牙连接/断开</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_check_version">检查更新</string>
+    <string name="setting_confirm_password">确认密码: </string>
+    <string name="setting_new_password">修改密码: </string>
+    <string name="setting_use_help">查看帮助</string>
+    <string name="sheet">钢板</string>
+    <string name="sheetLossRate">钢板报损率</string>
+    <string name="sheetRequestNum">钢板请料数</string>
+    <string name="sheet_barcode_title">钢板绑定信息</string>
+    <string name="sheet_cancelrust">取消锈蚀</string>
+    <string name="sheet_code">钢板编号</string>
+    <string name="sheet_code_">钢板编号: </string>
+    <string name="sheet_detail">钢板明细</string>
+    <string name="sheet_exitStore">退库</string>
+    <string name="sheet_floor">钢板层号</string>
+    <string name="sheet_floor_">钢板层号: </string>
+    <string name="sheet_input">钢板入库</string>
+    <string name="sheet_msg">钢板编辑</string>
+    <string name="sheet_name_">钢板名称: </string>
+    <string name="sheet_operate">操作</string>
+    <string name="sheet_options">选项</string>
+    <string name="sheet_output">钢板出库</string>
+    <string name="sheet_project">交换工程</string>
+    <string name="sheet_qty">张数:</string>
+    <string name="sheet_rust">锈蚀</string>
+    <string name="sheet_scanVerify">扫描确认</string>
+    <string name="sheet_shift">钢板倒垛</string>
+    <string name="sheet_type">钢板类型：</string>
+    <string name="shift">倒垛</string>
+    <string name="shift_location">钢板清单</string>
+    <string name="specification_">规格:</string>
+    <string name="stack">垛位</string>
+    <string name="stack_">垛位:</string>
+    <string name="stack_count_">垛位总数:</string>
+    <string name="stack_id_">垛位编号:</string>
+    <string name="stack_info">垛位信息</string>
+    <string name="start">开始</string>
+    <string name="status">状态</string>
+    <string name="steel_amount_">钢板数: </string>
+    <string name="steel_count">钢板张数</string>
+    <string name="steel_count_">钢板数量:</string>
+    <string name="steel_plate_count_">钢板总数:</string>
+    <string name="steel_unit">张</string>
+    <string name="steel_weight">钢板重量</string>
+    <string name="stock_check_begin">开始盘点</string>
+    <string name="stock_check_detail">库存盘点——盘点明细</string>
+    <string name="stock_check_error">盘点有误</string>
+    <string name="stock_check_finish">盘点无误</string>
+    <string name="stock_check_need_reindex">需要倒垛</string>
+    <string name="stock_check_stop">结束盘点</string>
+    <string name="stock_check_wating">等待盘点</string>
+    <string name="stock_pandect">库位总览</string>
+    <string name="stock_sheet">库存钢板</string>
+    <string name="stop">停止</string>
+    <string name="storage_check">库存盘点</string>
+    <string name="storehouse">仓库</string>
+    <string name="storehouse_">仓库:</string>
+    <string name="storey_">当前层数:</string>
+    <string name="suit_cut_">套裁图号:</string>
+    <string name="supplier">供应商</string>
+    <string name="supplier_">供应商:</string>
+    <string name="systemSetting">系统设定</string>
+    <string name="taking">吊取信息</string>
+    <string name="taking_weight">吊取重量</string>
+    <string name="terminal">一级库</string>
+    <string name="test_count">体验版</string>
+    <string name="thickness">厚度</string>
+    <string name="thickness_">厚度: </string>
+    <string name="time_">时间:</string>
+    <string name="today">今天</string>
+    <string name="ton">吨</string>
+    <string name="total">总数:</string>
+    <string name="update">立即更新</string>
+    <string name="update_cancel">暂不更新</string>
+    <string name="useRatio">利用率</string>
+    <string name="warning">警告</string>
+    <string name="week">周</string>
+    <string name="weight_">重量: </string>
+    <string name="width">宽度</string>
+    <string name="width_">宽度: </string>
+    <string name="workInfo_finish">已完工</string>
+    <string name="workInfo_hour">切割工时(小时)</string>
+    <string name="workInfo_newWork">未分派</string>
+    <string name="workInfo_overDue_count">逾期零件数:</string>
+    <string name="workInfo_overDue_ratio">逾期率:</string>
+    <string name="workInfo_plan">作业看板——计划进展</string>
+    <string name="workInfo_preWork">未加工</string>
+    <string name="workInfo_replace">钢板代用(张)</string>
+    <string name="workInfo_reserve">作业看板——库存</string>
+    <string name="workInfo_unfinish">未完工</string>
+    <string name="workInfo_useratio">作业看板——利用率</string>
+    <string name="workInfo_useratio_device">设备类型</string>
+    <string name="workInfo_useratio_users">套料员</string>
+    <string name="workInfo_working">加工中</string>
+    <string name="workInfo_yield">作业看板——产量</string>
+    <string name="workInfo_yield_count">切割钢板张数</string>
+    <string name="workInfo_yield_count_title">切割钢板</string>
+    <string name="workInfo_yield_weight">完工零件重量</string>
+    <string name="workInfo_yield_weight_title">零件重量</string>
+    <string name="work_amount_">作业数: </string>
+    <string name="work_panel">作业看板</string>
+    <string name="year">年</string>
+    <string name="yield">产量</string>
+    <style name="AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out2</item>
+    </style>
+    <style name="AppAnimotion" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/detault_admin_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_stay</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_stay</item>
+        <item name="android:activityCloseExitAnimation">@anim/detault_admin_out</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowAnimationStyle">@style/AppAnimotion</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="BarcodeRadioBtnTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/selector_btn_confirm</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="StyleRadioBtn" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/selector_btn_confirm</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--  -->
+    </style>
+    <style name="dialog_storetype" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="font2_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+    </style>
+    <style name="font2_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+    </style>
+    <style name="font3_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+    <style name="font3_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="popwindow_delete_btn_anim_style">
+        <item name="android:windowEnterAnimation">@anim/delete_btn_show</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/delete_btn_hide</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+    <style name="setting_arrow_img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/dimen_20_dip</item>
+        <item name="android:src">@drawable/list_item_arrow</item>
+    </style>
+    <style name="setting_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_60_dip</item>
+        <item name="android:background">@drawable/setting_item_bg</item>
+    </style>
+    <style name="setting_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_10_dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="styles_CheckBox_device">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:checked">true</item>
+        <item name="android:minHeight">@dimen/dimen_26_dip</item>
+        <item name="android:paddingLeft">@dimen/dimen_20_dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+    </style>
+    <style name="styles_RadioBtn_house" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/selector_btn_confirm</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_14_dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="styles_infoquery_edit">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="styles_infoquery_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+    <style name="styles_input_font">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/dimen_12_dip</item>
+    </style>
+</resources>

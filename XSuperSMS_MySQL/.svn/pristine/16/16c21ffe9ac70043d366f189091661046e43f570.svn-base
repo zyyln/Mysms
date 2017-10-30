@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="35dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/start_txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/outsheet_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.8"
+        android:background="@drawable/sheet_detail_list_item_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/outsheet_txt_material"
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:text="material" />
+
+                <TextView
+                    android:id="@+id/outsheet_txt_checkout"
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="checkout" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/outsheet_txt_size"
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="size" />
+
+                <TextView
+                    android:id="@+id/outsheet_txt_itemno"
+                    style="@style/font3_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="itemno" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/option_btn"
+            style="@style/font3_black"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/textSize_1"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/selector_btn_confirm"
+            android:focusable="false"
+            android:text="@string/sheet_options" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/end_txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2" />
+
+</LinearLayout>

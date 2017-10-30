@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 17+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v17/styles.xml on API 17+ devices.    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 17 theme customizations can go here. -->
+    </style>
+
+    <style name="styles_CheckBox_device">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:checked">true</item>
+        <item name="android:minHeight">26dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textSize_2</item>
+    </style>
+
+</resources>

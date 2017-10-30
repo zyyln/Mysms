@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义矩形边框 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="#ff0000ff" />
+
+    <stroke
+        android:width="0.4dp"
+        android:color="#000000" />
+
+    <gradient
+        android:endColor="#00000000"
+        android:startColor="#00000000" />
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+
+    <corners android:radius="0dp" />
+
+</shape>

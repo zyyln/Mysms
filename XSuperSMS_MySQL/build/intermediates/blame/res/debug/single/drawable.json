@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\workinfo_home_select.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\workinfo_home_select.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\workinfo_month_select.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\workinfo_month_select.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\workinfo_year_select.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\workinfo_year_select.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_options.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_btn_options.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_item_sheetin.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_item_sheetin.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_stock_check.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_stock_check.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_back.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_btn_back.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\workinfo_day_select.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\workinfo_day_select.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_back_btn.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\mm_title_back_btn.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_checkbox_crane.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_checkbox_crane.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_stocktype_barcodebtn.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_stocktype_barcodebtn.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_confirm.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_btn_confirm.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\workinfo_week_select.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\workinfo_week_select.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_refresh.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_btn_refresh.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_check_detail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_check_detail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_infoquery.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_btn_infoquery.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_detailoptions.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_btn_detailoptions.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_sp_options.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_sp_options.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\deng_09.png",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\deng_09.png"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rectangle_rim.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\shape_rectangle_rim.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_item_sheetdetail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_item_sheetdetail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\layerlist_list_divider.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\layerlist_list_divider.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_query.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\selector_btn_query.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable\\workinfo_useratio_btn_selector.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable\\workinfo_useratio_btn_selector.xml"
+    }
+]

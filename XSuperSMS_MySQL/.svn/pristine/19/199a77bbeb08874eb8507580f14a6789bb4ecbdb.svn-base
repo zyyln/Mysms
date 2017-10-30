@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_bar_top"
+            layout="@layout/layout_header" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_selcthouse"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_left_popup"
+            layout="@layout/layout_housestore" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <LinearLayout
+                android:id="@+id/output_linear_selctNum"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/output_tv_orderleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_left" />
+
+                <TextView
+                    android:id="@+id/output_tv_order"
+                    style="@style/font2_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_mid"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="@string/select_grantorder"
+                    android:saveEnabled="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black" >
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/output_imgbtn_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botton_arrow" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/output_lv_grantDetail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="8"
+                android:background="@drawable/shape_rectangle_rim"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="2dp" >
+            </ListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <CheckBox
+                    android:id="@+id/output_cb_crane"
+                    style="@style/styles_CheckBox_device"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/selector_checkbox_crane"
+                    android:singleLine="true"
+                    android:text="@string/crane_order" />
+
+                <Button
+                    android:id="@+id/output_btn_output"
+                    style="@style/font2_black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:text="@string/output" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <LinearLayout
+                android:id="@+id/output_linear_stack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RadioGroup
+                    android:id="@+id/output_radiogroup_warehouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/output_radioBtn_terminal"
+                        style="@style/styles_RadioBtn_house"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:padding="5dp"
+                        android:text="@string/terminal" />
+
+                    <RadioButton
+                        android:id="@+id/output_radioBtn_remaining"
+                        style="@style/styles_RadioBtn_house"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/remaining" />
+                </RadioGroup>
+
+                <include
+                    android:id="@+id/include_stack"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    layout="@layout/include_gv_stack" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/output_linear_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rectangle_rim"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/output_tv_stackno"
+                        style="@style/font2_white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_btn_confirm"
+                        android:padding="5dp"
+                        android:text="@string/stack_" />
+
+                    <RadioGroup
+                        android:id="@+id/output_radiogroup_selctPath"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/output_radioBtn_fastest"
+                            style="@style/styles_RadioBtn_house"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:padding="5dp"
+                            android:text="@string/fastest" />
+
+                        <RadioButton
+                            android:id="@+id/output_radioBtn_sequence"
+                            style="@style/styles_RadioBtn_house"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:padding="5dp"
+                            android:text="@string/sequence" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/output_lv_sheet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.8"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="2dp"
+                    android:listSelector="@android:color/transparent" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar_bottom"
+        layout="@layout/layout_footer" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar_top"
+        layout="@layout/layout_header" />
+
+    <WebView
+        android:id="@+id/setting_configurefields"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:layout_gravity="center"
+        android:background="@color/transparent" />
+
+    <Spinner
+        android:id="@+id/more_configurefields"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/head"
+        android:layout_margin="5dp"
+        android:background="@drawable/spinnergrey_bg"
+        android:entries="@array/configure_" />
+
+</RelativeLayout>

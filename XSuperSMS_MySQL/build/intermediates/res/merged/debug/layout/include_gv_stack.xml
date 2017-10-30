@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 下拉刷新，上拉加载控件 -->
+    <com.xuesi.mos.libs.pulltorefresh.PullToRefreshGridView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/include_gv_stack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="@dimen/dimen_100_dip"
+        android:gravity="fill"
+        android:horizontalSpacing="@dimen/dimen_5_dip"
+        android:numColumns="5"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/dimen_5_dip"
+        ptr:ptrDrawable="@drawable/default_ptr_rotate"
+        ptr:ptrMode="both" />
+
+</LinearLayout>

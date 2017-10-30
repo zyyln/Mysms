@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_bar_top"
+            layout="@layout/layout_header" />
+        <!-- 选择单号 -->
+
+        <LinearLayout
+            android:id="@+id/codebind_layout_listnum"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_selcthouse"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_left_popup"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_left" />
+
+            <TextView
+                android:id="@+id/codebind_tv_listnumName"
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_selecthouse"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_mid"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="@string/select_billno_tv"
+                android:saveEnabled="true"
+                android:singleLine="true"
+                android:textColorHint="@color/black" >
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/codebind_btn_listnumArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botton_arrow"
+                android:focusable="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- 中间内容 -->
+
+    <LinearLayout
+        android:id="@+id/codebind_layout_middleContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <!-- 左边内容 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical" >
+
+            <!-- 条形码显示 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/barcode_" />
+
+                <EditText
+                    android:id="@+id/codebind_et_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:maxLength="32"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_2" />
+            </LinearLayout>
+
+            <!-- 扫描按钮 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/codebind_btn_scan"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/scan" />
+            </RelativeLayout>
+            <!-- 左侧中间内容 -->
+
+            <ListView
+                android:id="@+id/codebind_lv_info"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="7"
+                android:background="@drawable/shape_rectangle_rim"
+                android:cacheColorHint="@android:color/transparent"
+                android:choiceMode="multipleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/ListViewdividerHeight"
+                android:fadeScrollbars="false"
+                android:listSelector="@android:color/transparent"
+                android:scrollbarFadeDuration="0"
+                android:scrollbars="none" />
+            <!-- 左侧底部按钮 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/codebing_tv_totalCount"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/accumulative_total_" />
+
+                <Button
+                    android:id="@+id/codebind_btn_confirm"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/confirm_bind" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- 右侧内容 -->
+
+        <LinearLayout
+            android:id="@+id/codebind_layout_inMsg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <!-- 钢板绑定信息Title -->
+
+            <TextView
+                android:id="@+id/title_tv"
+                style="@style/font2_black"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/barcode_title_bj"
+                android:gravity="center"
+                android:text="@string/sheet_barcode_title" />
+            <!-- 详细信息填写 -->
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="7"
+                layout="@layout/dialog_replenish_bindmsg" />
+
+            <RadioGroup
+                android:id="@+id/codebind_rg_type"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/codebind_rdbtn_whole"
+                    style="@style/BarcodeRadioBtnTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="@string/barcode_whole_board" />
+
+                <RadioButton
+                    android:id="@+id/codebind_rdbtn_sequence"
+                    style="@style/BarcodeRadioBtnTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="@string/remnant" />
+            </RadioGroup>
+        </LinearLayout>
+        <!-- 右侧内容BillNo -->
+
+        <LinearLayout
+            android:id="@+id/codebind_layout_billno"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="7"
+                android:background="@drawable/shape_rectangle_rim"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sheet_detail_head_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/barcode" />
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/material" />
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/thickness" />
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/length" />
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/width" />
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/barcode_name_batch" />
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.1"
+                        android:gravity="center"
+                        android:text="@string/supplier" />
+
+                    <TextView
+                        style="@style/font2_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/remarks" />
+                </LinearLayout>
+
+                <com.xuesi.mos.libs.pulltorefresh.PullToRefreshListView
+                    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/codebind_lv_sheet"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:background="@drawable/sheet_listview_bg"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:choiceMode="multipleChoice"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="@dimen/ListViewdividerHeight"
+                    android:listSelector="@android:color/transparent"
+                    android:scrollbars="vertical"
+                    ptr:ptrAnimationStyle="flip"
+                    ptr:ptrHeaderBackground="@android:color/darker_gray"
+                    ptr:ptrMode="pullFromEnd" />
+            </LinearLayout>
+
+            <!-- 下端按钮 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/codebind_tv_count"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/billno_already_selected" />
+
+                <Button
+                    android:id="@+id/codebind_btn_release"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/release_bill_no" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 底部 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar_bottom"
+        layout="@layout/layout_footer" />
+
+</LinearLayout>

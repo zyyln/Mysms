@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical"
+    tools:context=".app.activity.QueryBillActivity">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40_dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dimen_5_dip"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_2_dip">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- 选择单号 -->
+
+                <LinearLayout
+                    android:id="@+id/codebind_layout_listnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_20_dip"
+                    android:layout_centerVertical="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/input_left" />
+
+                    <EditText
+                        android:id="@+id/codebind_tv_listnumName"
+                        style="@style/font2_black"
+                        android:layout_width="@dimen/dimen_60_dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/input_mid"
+                        android:clickable="false"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/select_billno_tv"
+                        android:maxLines="1"
+                        android:saveEnabled="true"
+                        android:textColorHint="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/codebind_btn_listnumArrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/botton_arrow" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_2_dip"
+                android:layout_marginTop="@dimen/dimen_5_dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sheet_type" />
+
+                <Spinner
+                    android:id="@+id/SP_sheettype"
+                    style="@style/font3_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/sheetType"
+                    android:padding="@dimen/dimen_2_dip" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_2_dip"
+                android:layout_marginTop="@dimen/dimen_5_dip">
+
+                <TextView
+                    android:id="@+id/tv"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_range" />
+
+                <EditText
+                    android:id="@+id/etPickerStart"
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/tv"
+                    android:layout_toRightOf="@id/tv"
+                    android:background="@drawable/input_bg"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:onClick="showStartDatePickDlg"
+                    android:padding="@dimen/dimen_2_dip"
+                    android:tag="1" />
+
+                <EditText
+                    android:id="@+id/etPickerStop"
+                    style="@style/font2_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etPickerStart"
+                    android:layout_marginTop="@dimen/dimen_4_dip"
+                    android:layout_toRightOf="@id/tv"
+                    android:background="@drawable/input_bg"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:onClick="showStopDatePickDlg"
+                    android:padding="@dimen/dimen_2_dip"
+                    android:tag="2" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/billsearch_btn"
+                style="@style/font2_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_5_dip"
+                android:background="@drawable/selector_btn_confirm"
+                android:onClick="searchBill"
+                android:text="@string/confirm" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_2_dip">
+
+            <include
+                android:id="@+id/head"
+                layout="@layout/item_scrollview_billfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.xuesi.mos.libs.pulltorefresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/Lv_Bills"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sheet_listview_bg"
+                android:cacheColorHint="@android:color/transparent"
+                android:choiceMode="multipleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/dimen_2_dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="vertical"
+                ptr:ptrAnimationStyle="flip"
+                ptr:ptrHeaderBackground="@android:color/darker_gray"
+                ptr:ptrMode="pullFromEnd" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>

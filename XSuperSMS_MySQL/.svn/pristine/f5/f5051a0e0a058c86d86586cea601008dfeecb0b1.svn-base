@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/housestore_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/housestore_tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_left" />
+
+    <TextView
+        android:id="@+id/housestore_tv_name"
+        style="@style/font2_black"
+        android:layout_width="@dimen/width_selecthouse"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_mid"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="@string/pleaseSelectStock"
+        android:maxLength="11"
+        android:saveEnabled="true"
+        android:singleLine="true"
+        android:textColorHint="@color/black" >
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/housestore_btn_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botton_arrow" />
+
+</LinearLayout>

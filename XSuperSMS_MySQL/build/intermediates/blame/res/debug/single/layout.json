@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_billno_sheet.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_billno_sheet.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\popuwindow_view.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\popuwindow_view.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_timebtn_group.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_timebtn_group.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sheetdetail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_sheetdetail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_work_info.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_work_info.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_bindmsg.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_bindmsg.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_replenish_bindmsg.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_replenish_bindmsg.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\view_banner.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\view_banner.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_storehousetype.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_storehousetype.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_configurefields.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_configurefields.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_bindmsg.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_bindmsg.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shift.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_shift.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_advert.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_advert.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\popup_grant.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\popup_grant.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_selected_crane.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_selected_crane.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_sheetdetail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_lv_sheetdetail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\popup_barcode.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\popup_barcode.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_crane_work_panel_sub.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_crane_work_panel_sub.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_outsheet.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_lv_outsheet.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_check.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\progress_download.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\progress_download.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_popwin.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_lv_popwin.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_input.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_input.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\scan_title.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\scan_title.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_crane.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_crane.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_housestore.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_housestore.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_edit.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_edit.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_tvwhite.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_lv_tvwhite.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_gv_device.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_gv_device.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_option_total.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_option_total.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workinfo_plan.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_workinfo_plan.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_stackdetails.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_stackdetails.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_bind.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_barcode_bind.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_header_navi.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_header_navi.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_header.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_header.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_stack_msg.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_stack_msg.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_tvblack.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_lv_tvblack.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_launch.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_launch.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_laumod.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_laumod.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_tv_white.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_tv_white.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_total.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_total.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_grantdetail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_grantdetail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workinfo_reserve.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_workinfo_reserve.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_query_bills.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_query_bills.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_detail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_input_detail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_bindway.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_bindway.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_replacebrcode.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_replacebrcode.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ip_setting.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_ip_setting.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_scrollview_querybill.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_scrollview_querybill.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_us.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_contact_us.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_footer.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_footer.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_gv_stockcheck.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_gv_stockcheck.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\include_gv_stack.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\include_gv_stack.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_option_output.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_option_output.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_detail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_check_detail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_crane_handle.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_crane_handle.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_scrollview_billfield.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_scrollview_billfield.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\MosLibrary-XUESI\\build\\intermediates\\bundles\\default\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_use_help.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_use_help.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_crane_panel.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_crane_panel.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sheetdetail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_sheetdetail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workinfo_yield.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_workinfo_yield.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_navi_array.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_navi_array.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_inputtype.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_inputtype.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\copy_activity_barcode_bind.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\copy_activity_barcode_bind.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_gv_stack.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_gv_stack.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workinfo_useratio.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_workinfo_useratio.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_percent.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_percent.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\popup_storehouse.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\popup_storehouse.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_info_query_steel.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_lv_info_query_steel.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dashboard.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\layout_dashboard.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_crane_work_panel.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_crane_work_panel.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\delete_btn.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\delete_btn.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_frag.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_frag.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_checkdetail.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\item_lv_checkdetail.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_change_password.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\dialog_change_password.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\devlist_items.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\devlist_items.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_output.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_output.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scan.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\include_lv_sheet.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\include_lv_sheet.xml"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_query.xml",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\layout\\activity_info_query.xml"
+    }
+]

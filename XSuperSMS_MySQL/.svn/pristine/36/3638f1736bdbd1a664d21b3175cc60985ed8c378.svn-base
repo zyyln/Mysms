@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle_rim"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sheet_msg"
+        style="@style/font2_black"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/sheet_msg"
+        android:visibility="gone" />
+    <!-- 余料名称 -->
+
+    <LinearLayout
+        android:id="@+id/remain_name_linear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/ListViewdividerHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="@dimen/width_sheetinfo"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/barcode_name_right"
+            android:gravity="center"
+            android:text="@string/remain_name" />
+
+        <EditText
+            android:id="@+id/barcode_remain_name"
+            style="@style/font2_black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/input_mid"
+            android:gravity="center_vertical"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!-- ERP关联行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/ListViewdividerHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="@dimen/width_sheetinfo"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/barcode_name_right"
+            android:gravity="center"
+            android:text="@string/barcode_name_assosiation" />
+
+        <EditText
+            android:id="@+id/barcode_msg_assosiation"
+            style="@style/font2_black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/input_mid"
+            android:gravity="center_vertical"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/barcode_imgbtnArrow_assosiation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/botton_arrow" />
+    </LinearLayout>
+    <!-- 物料编码行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/ListViewdividerHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="@dimen/width_sheetinfo"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/barcode_name_right"
+            android:gravity="center"
+            android:text="@string/barcode_name_materialcode" />
+
+        <EditText
+            android:id="@+id/barcode_msg_materialcode"
+            style="@style/font2_black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/input_mid"
+            android:gravity="center_vertical"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/barcode_imgbtnArrow_materialcode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/botton_arrow" />
+    </LinearLayout>
+    <!-- 长*宽 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/ListViewdividerHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_length" />
+
+            <EditText
+                android:id="@+id/barcode_msg_length"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_length"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_width" />
+
+            <EditText
+                android:id="@+id/barcode_msg_width"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_width"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 供应商行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="@dimen/width_sheetinfo"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/barcode_name_right"
+            android:gravity="center"
+            android:text="@string/supplier" />
+
+        <EditText
+            android:id="@+id/barcode_msg_provider"
+            style="@style/font2_black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/input_mid"
+            android:gravity="center_vertical"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/barcode_imgbtnArrow_provider"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/botton_arrow" />
+    </LinearLayout>
+    <!-- 炉批号、提检号 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_batch" />
+
+            <EditText
+                android:id="@+id/barcode_msg_batch"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_batch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/checkoutid" />
+
+            <EditText
+                android:id="@+id/barcode_msg_check"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_check"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 工程、分段号 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_project" />
+
+            <EditText
+                android:id="@+id/barcode_msg_project"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_project"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_section" />
+
+            <EditText
+                android:id="@+id/barcode_msg_section"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_section"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 船级社、入库时间 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/ListViewdividerHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_classfication" />
+
+            <EditText
+                android:id="@+id/barcode_msg_classfication"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_classfication"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/create_time" />
+
+            <EditText
+                android:id="@+id/barcode_msg_putdate"
+                style="@style/font2_black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 数据1、数据2 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_data1" />
+
+            <EditText
+                android:id="@+id/barcode_msg_data1"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_data1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/font2_black"
+                android:layout_width="@dimen/width_sheetinfo"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/barcode_name_right"
+                android:gravity="center"
+                android:text="@string/barcode_name_data2" />
+
+            <EditText
+                android:id="@+id/barcode_msg_data2"
+                style="@style/font2_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/input_mid"
+                android:gravity="center_vertical"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/barcode_imgbtnArrow_data2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/botton_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 备注 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/font2_black"
+            android:layout_width="@dimen/width_sheetinfo"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/barcode_name_right"
+            android:gravity="center"
+            android:text="@string/remarks" />
+
+        <EditText
+            android:id="@+id/barcode_msg_remark"
+            style="@style/font2_black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/input_mid"
+            android:gravity="center_vertical"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/barcode_imgbtnArrow_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/botton_arrow" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/billNo_confirm"
+        style="@style/font2_white"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_confirm"
+        android:text="@string/confirm"
+        android:visibility="gone" />
+
+</LinearLayout>

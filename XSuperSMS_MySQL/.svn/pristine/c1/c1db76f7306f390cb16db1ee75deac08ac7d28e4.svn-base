@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp" >
+
+    <TextView
+        android:id="@+id/item_tv_selectNum"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/black_circle"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="@dimen/textSize_2" />
+
+    <EditText
+        android:id="@+id/item_tv_content"
+        style="@style/font2_white"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:singleLine="true"
+        android:text="TextView" />
+
+</LinearLayout>

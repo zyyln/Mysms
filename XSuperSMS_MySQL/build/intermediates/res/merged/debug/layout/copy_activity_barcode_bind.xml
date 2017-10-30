@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_40_dip" />
+        <!-- 选择单号 -->
+
+        <LinearLayout
+            android:id="@+id/codebind_layout_listnum"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_30_dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_80_dip"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_left" />
+
+            <TextView
+                android:id="@+id/codebind_tv_listnumName"
+                style="@style/font2_black"
+                android:layout_width="@dimen/dimen_60_dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_mid"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="@string/select_billno_tv"
+                android:maxLines="1"
+                android:saveEnabled="true"
+                android:textColorHint="@color/black" />
+
+            <ImageButton
+                android:id="@+id/codebind_btn_listnumArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botton_arrow"
+                android:focusable="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- 中间内容 -->
+
+    <LinearLayout
+        android:id="@+id/codebind_layout_middleContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <!-- 左边内容 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical">
+
+            <!-- 条形码显示 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/barcode_" />
+
+                <EditText
+                    android:id="@+id/codebind_et_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_1_dip"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:maxLength="32"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_12_dip" />
+
+                <ImageView
+                    android:id="@+id/img_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_2_dip"
+                    android:src="@drawable/scan_small" />
+            </LinearLayout>
+
+            <!-- 扫描按钮 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/codebind_btn_scan"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:paddingLeft="@dimen/dimen_5_dip"
+                    android:paddingRight="@dimen/dimen_5_dip"
+                    android:text="@string/scan" />
+            </RelativeLayout>
+            <!-- 左侧中间内容 -->
+
+            <ListView
+                android:id="@+id/codebind_lv_info"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="7"
+                android:background="@drawable/shape_rectangle_rim"
+                android:cacheColorHint="@android:color/transparent"
+                android:choiceMode="multipleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/dimen_2_dip"
+                android:fadeScrollbars="false"
+                android:listSelector="@android:color/transparent"
+                android:scrollbarFadeDuration="0" />
+            <!-- 左侧底部按钮 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/codebing_tv_totalCount"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_5_dip"
+                    android:paddingRight="@dimen/dimen_5_dip"
+                    android:text="@string/accumulative_total_" />
+
+                <Button
+                    android:id="@+id/codebind_btn_confirm"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:paddingLeft="@dimen/dimen_5_dip"
+                    android:paddingRight="@dimen/dimen_5_dip"
+                    android:text="@string/confirm_bind" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- 右侧内容 -->
+
+        <LinearLayout
+            android:id="@+id/codebind_layout_inMsg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_5_dip"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- 钢板绑定信息Title -->
+
+            <TextView
+                android:id="@+id/title_tv"
+                style="@style/font2_black"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/dimen_3_dip"
+                android:layout_marginRight="@dimen/dimen_3_dip"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="1"
+                android:background="@drawable/barcode_title_bj"
+                android:gravity="center"
+                android:text="@string/sheet_barcode_title" />
+
+            <ListView
+                android:id="@+id/lv_bindmsg"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="7"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/dimen_2_dip"
+                android:fadeScrollbars="false"
+                android:listSelector="@android:color/transparent"
+                android:scrollbarFadeDuration="0"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <!-- 右侧内容BillNo -->
+
+        <LinearLayout
+            android:id="@+id/codebind_layout_billno"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_5_dip"
+            android:layout_weight="5"
+            android:background="@drawable/plan_content_bj"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/dimen_3_dip"
+                android:layout_marginRight="@dimen/dimen_3_dip"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="8"
+                android:background="@drawable/shape_rectangle_rim"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/head"
+                    layout="@layout/item_scrollview_billfield"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.xuesi.mos.libs.pulltorefresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/codebind_lv_sheet"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:background="@drawable/sheet_listview_bg"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:choiceMode="multipleChoice"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="@dimen/dimen_2_dip"
+                    android:listSelector="@android:color/transparent"
+                    android:scrollbars="vertical"
+                    ptr:ptrAnimationStyle="flip"
+                    ptr:ptrHeaderBackground="@android:color/darker_gray"
+                    ptr:ptrMode="pullFromEnd" />
+            </LinearLayout>
+
+            <!-- 下端按钮 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/dimen_3_dip"
+                android:layout_marginRight="@dimen/dimen_3_dip"
+                android:layout_marginTop="@dimen/dimen_3_dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/codebind_tv_count"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_5_dip"
+                    android:paddingRight="@dimen/dimen_5_dip"
+                    android:text="@string/billno_already_selected" />
+
+                <Button
+                    android:id="@+id/codebind_btn_release"
+                    style="@style/font2_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:paddingLeft="@dimen/dimen_5_dip"
+                    android:paddingRight="@dimen/dimen_5_dip"
+                    android:text="@string/release_bill_no" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 底部 -->
+
+    <include
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_25_dip" />
+
+</LinearLayout>
