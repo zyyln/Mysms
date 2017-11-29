@@ -72,12 +72,12 @@
         "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable-nodpi\\img_stock_wating.9.png"
     },
     {
-        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\stock_check_detail_btn_pressed.png",
-        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable-nodpi\\stock_check_detail_btn_pressed.png"
-    },
-    {
         "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\plan_type_new_work.png",
         "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable-nodpi\\plan_type_new_work.png"
+    },
+    {
+        "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\stock_check_detail_btn_pressed.png",
+        "source": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\res\\drawable-nodpi\\stock_check_detail_btn_pressed.png"
     },
     {
         "merged": "E:\\ASPlace\\XSUPERSMS\\XSuperSMS_MySQL\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\worklook_gray.9.png",

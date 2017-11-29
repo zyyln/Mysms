@@ -1,66 +1,0 @@
-<resources>
-
-    <!--
-         Customize dimensions originally defined in res/values/dimens.xml (such as
-         screen margins) for sw36dp devices (e.g. 7" tablets) here.
-    -->
-    <!-- Panasonic松下设备 1280*736 dpi=213 -->
-
-
-    <!-- ************源文件************** -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-
-    <!-- ********设置应用字体(单位sp)******** -->
-    <!-- 常规字体大小级别 -->
-    <dimen name="textSize_5">8sp</dimen>
-    <dimen name="textSize_4">10sp</dimen>
-    <dimen name="textSize_3">12sp</dimen>
-    <dimen name="textSize_2">14sp</dimen>
-    <dimen name="textSize_1">20sp</dimen>
-    <!-- 特殊字体大小 -->
-    <dimen name="textSize_large">40sp</dimen>
-    <dimen name="textSize_normal">30sp</dimen>
-    <dimen name="textSize_small">28sp</dimen>
-
-    <!-- *******设置应用距离尺寸(单位dp)******* -->
-    <!-- 顶部条的高度 -->
-    <dimen name="height_bar_top">30dp</dimen>
-    <!-- 底部条的高度 -->
-    <dimen name="height_bar_bottom">30dp</dimen>
-
-    <!-- 登录画面 -->
-    <dimen name="padding_vertical">5dp</dimen>
-    <dimen name="padding_horizontal">10dp</dimen>
-    <dimen name="height_input">75dp</dimen>
-
-    <!-- 作业看板 -->
-    <dimen name="editFrameWidth">100dp</dimen>
-    <dimen name="editFrameHeight">30dp</dimen>
-    <dimen name="planProHeight">30dp</dimen>
-    <dimen name="legendHeight">20dp</dimen>
-    <dimen name="width_timebtn">54dp</dimen>
-
-    <!-- 计划进展 -->
-    <dimen name="height_proportion">30dp</dimen>
-
-    <!-- 导航画面 -->
-    <dimen name="width_navi">80dp</dimen>
-
-    <!-- 入库 -->
-    <dimen name="width_selecthouse">120dp</dimen>
-    <dimen name="height_selcthouse">25dp</dimen>
-    <dimen name="GridSpacing">9pt</dimen>
-
-    <!-- 行车弹出框 -->
-    <dimen name="height_crane">240dp</dimen>
-
-    <!-- 系统设定 -->
-    <dimen name="height_changePsd">45dp</dimen>
-
-    <!-- 条码绑定界面 -->
-    <dimen name="margin_left_popup">90dp</dimen>
-    <dimen name="ListViewdividerHeight">2dp</dimen>
-    <dimen name="width_sheetinfo">120dp</dimen>
-
-</resources>

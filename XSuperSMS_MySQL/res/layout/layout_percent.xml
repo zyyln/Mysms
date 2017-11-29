@@ -54,7 +54,7 @@
                 android:maxLines="1"
                 android:text="@string/workInfo_finish"
                 android:textColor="@color/black"
-                android:textSize="@dimen/dimen_6_dip" />
+                android:textSize="@dimen/dimen_12_dip" />
 
             <TextView
                 android:id="@+id/percent_type_1_value1"
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:textColor="@color/black"
-                android:textSize="@dimen/dimen_6_dip" />
+                android:textSize="@dimen/dimen_12_dip" />
         </LinearLayout>
 
         <TextView
@@ -86,7 +86,7 @@
                 android:maxLines="1"
                 android:text="@string/workInfo_unfinish"
                 android:textColor="@color/black"
-                android:textSize="@dimen/dimen_6_dip" />
+                android:textSize="@dimen/dimen_12_dip" />
 
             <TextView
                 android:id="@+id/percent_type_2_value1"
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:textColor="@color/black"
-                android:textSize="@dimen/dimen_6_dip" />
+                android:textSize="@dimen/dimen_12_dip" />
         </LinearLayout>
     </LinearLayout>
 

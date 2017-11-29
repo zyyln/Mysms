@@ -52,7 +52,7 @@
                         android:gravity="center"
                         android:text="@string/work_panel"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
                         android:gravity="center"
                         android:text="@string/barcodeBinding"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
                         android:gravity="center"
                         android:text="@string/sheet_input"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:id="@+id/arrayNavi_img_input"
@@ -165,7 +165,7 @@
                         android:gravity="center"
                         android:text="@string/sheet_output"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -217,7 +217,7 @@
                         android:gravity="center"
                         android:text="@string/sheet_shift"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -259,7 +259,7 @@
                         android:gravity="center"
                         android:text="@string/stock_pandect"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -302,7 +302,7 @@
                         android:gravity="center"
                         android:text="@string/crane_panel"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -344,7 +344,7 @@
                         android:gravity="center"
                         android:text="@string/storage_check"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -389,7 +389,7 @@
                         android:gravity="center"
                         android:text="@string/infoquery"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -423,7 +423,7 @@
                         android:gravity="center"
                         android:text="@string/bill_search"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -458,7 +458,7 @@
                         android:gravity="center"
                         android:text="@string/systemSetting"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/dimen_12_dip" />
+                        android:textSize="@dimen/dimen_14_dip" />
 
                     <ImageView
                         android:layout_width="wrap_content"

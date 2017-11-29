@@ -30,7 +30,7 @@
                 android:gravity="center"
                 android:text="TextView"
                 android:textColor="@color/black"
-                android:textSize="@dimen/dimen_6_dip" />
+                android:textSize="@dimen/dimen_10_dip" />
 
             <TextView
                 android:id="@+id/stackItem_tv_height"
@@ -39,7 +39,7 @@
                 android:maxLines="1"
                 android:text="@string/millimeter"
                 android:textColor="@color/black"
-                android:textSize="@dimen/dimen_6_dip" />
+                android:textSize="@dimen/dimen_10_dip" />
 
             <TextView
                 android:id="@+id/stackItem_tv_count"
@@ -48,7 +48,7 @@
                 android:maxLines="1"
                 android:text="@string/steel_unit"
                 android:textColor="@color/black"
-                android:textSize="@dimen/dimen_6_dip" />
+                android:textSize="@dimen/dimen_10_dip" />
         </LinearLayout>
     </RelativeLayout>
 

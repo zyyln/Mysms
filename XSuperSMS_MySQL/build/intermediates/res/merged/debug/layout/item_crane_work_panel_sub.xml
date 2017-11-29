@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical"
     android:minHeight="34dp"
-    android:orientation="horizontal" >
+    android:orientation="horizontal">
 
     <EditText
         android:id="@+id/crane_work_panel_list_from_txt"
@@ -15,6 +15,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/crane_work_panel_from" />
 
@@ -32,6 +33,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/crane_work_panel_to" />
 
@@ -49,6 +51,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/material" />
 
@@ -66,6 +69,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/crane_work_panel_spec" />
 
@@ -83,6 +87,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/quantity" />
 
@@ -100,6 +105,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/crane_work_panel_single_weight" />
 
@@ -117,6 +123,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/crane_work_panel_author" />
 
@@ -134,6 +141,7 @@
         android:background="@color/transparent"
         android:focusable="false"
         android:gravity="center"
+        android:inputType="text"
         android:maxLines="1"
         android:text="@string/remarks" />
 

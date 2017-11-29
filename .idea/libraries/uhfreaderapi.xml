@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="uhfreaderapi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/XSuperSMS_MySQL/libs/uhfreaderapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

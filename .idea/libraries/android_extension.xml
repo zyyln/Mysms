@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android_extension">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/XSuperSMS_MySQL/libs/android_extension.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

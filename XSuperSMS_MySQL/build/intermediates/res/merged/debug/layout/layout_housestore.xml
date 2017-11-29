@@ -26,6 +26,7 @@
         android:maxLength="11"
         android:saveEnabled="true"
         android:maxLines="1"
+        android:inputType="text"
         android:textColorHint="@color/black" >
     </TextView>
 

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:1:1-237:12
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:1:1-243:12
 	package
 		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:2:5-28
 	android:versionName
@@ -105,7 +105,7 @@ ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:43:5-74
 	android:name
 		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:43:22-71
 application
-ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:45:5-235:19
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:45:5-241:19
 MERGED from [XSUPERSMS:MosLibrary-XUESI:unspecified] E:\ASPlace\XSUPERSMS\MosLibrary-XUESI\build\intermediates\bundles\default\AndroidManifest.xml:11:5-16:19
 	android:screenOrientation
 		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:49:9-46
@@ -461,3 +461,15 @@ ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:229:9-234:53
 		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:231:13-74
 	android:name
 		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:230:13-71
+activity#com.xuesi.sms.app.fragmentActivity.InputFragmentActivity
+ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:235:9-240:53
+	android:screenOrientation
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:240:13-50
+	android:launchMode
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:239:13-42
+	android:exported
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:238:13-37
+	android:configChanges
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:237:13-74
+	android:name
+		ADDED from E:\ASPlace\XSUPERSMS\XSuperSMS_MySQL\AndroidManifest.xml:236:13-84

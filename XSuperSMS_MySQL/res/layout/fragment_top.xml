@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_30_dip"
+    android:background="@drawable/normal_top_bg">
+
+    <LinearLayout
+        android:id="@+id/housestore_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_30_dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_80_dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/housestore_tv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_left" />
+
+        <TextView
+            android:id="@+id/housestore_tv_name"
+            style="@style/font2_black"
+            android:layout_width="@dimen/dimen_60_dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_mid"
+            android:clickable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="@string/pleaseSelectStock"
+            android:inputType="text"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:saveEnabled="true"
+            android:textColorHint="@color/black" />
+
+        <ImageButton
+            android:id="@+id/housestore_btn_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botton_arrow" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/top_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="start"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:text="title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_18_dip" />
+
+</RelativeLayout>

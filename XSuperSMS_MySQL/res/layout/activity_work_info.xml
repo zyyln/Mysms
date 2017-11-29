@@ -411,7 +411,7 @@
                 <TextView
                     android:id="@+id/wb_injure_weight_txt"
                     style="@style/font3_white"
-                    android:layout_width="50dp"
+                    android:layout_width="@dimen/dimen_50_dip"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
